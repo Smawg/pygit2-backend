@@ -2,7 +2,8 @@ from __future__ import print_function
 import pygit2
 import tempfile
 import os,sys,shutil
-import json
+#import json
+import yaml
 
 
 """Use 'with Datastore() as ds' to open Datastore"""
@@ -15,8 +16,8 @@ class Datastore(object):
         self.git_repo_path = tempfile.mkdtemp()
         if clone_from:
             self.git_repo = pygit2.clone_repository(clone_from, self.git_repo_path, bare=True)
-            return self
-        self.git_repo = pygit2.init_repository(self.git_repo_path, bare=True)
+        else:
+            self.git_repo = pygit2.init_repository(self.git_repo_path, bare=True)
 
         try:
             commit = self.git_repo.revparse_single('HEAD')
@@ -48,7 +49,7 @@ class Datastore(object):
             shutil.rmtree(self.git_repo_path)
 
     def _createYear(self, year):
-        blob = self.git_repo.create_blob('{}\n'.format(json.dumps('init')))
+        blob = self.git_repo.create_blob('{}\n'.format(yaml.dump('init')))
         parent_commit = self.git_repo.lookup_reference('HEAD').get_object()
         tree = self.git_repo.TreeBuilder(parent_commit.tree)
         tree.insert('{}'.format(year), blob, pygit2.GIT_FILEMODE_BLOB)
