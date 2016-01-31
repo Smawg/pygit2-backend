@@ -4,6 +4,6 @@ import time
 
 if __name__=='__main__':
     with Datastore() as ds:
-        ds.addTransaction('test')
+        ds.addTransaction(2016, 'test')
         while True:
             time.sleep(2)
