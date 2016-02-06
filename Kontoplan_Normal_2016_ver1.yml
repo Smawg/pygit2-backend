@@ -1,0 +1,3823 @@
+---
+accounts:
+- description: Utvecklingsutgifter
+  id: 1010
+  type: asset
+- description: Balanserade utgifter för forskning och utveckling
+  id: 1011
+  type: asset
+- description: Balanserade utgifter för programvaror
+  id: 1012
+  type: asset
+- description: Ackumulerade nedskrivningar på balanserade utgifter
+  id: 1018
+  type: asset
+- description: Ackumulerade avskrivningar på balanserade utgifter
+  id: 1019
+  type: asset
+- description: Koncessioner m.m.
+  id: 1020
+  type: asset
+- description: Ackumulerade nedskrivningar på koncessioner m.m.
+  id: 1028
+  type: asset
+- description: Ackumulerade avskrivningar på koncessioner m.m.
+  id: 1029
+  type: asset
+- description: Patent
+  id: 1030
+  type: asset
+- description: Ackumulerade nedskrivningar på patent
+  id: 1038
+  type: asset
+- description: Ackumulerade avskrivningar på patent
+  id: 1039
+  type: asset
+- description: Licenser
+  id: 1040
+  type: asset
+- description: Ackumulerade nedskrivningar på licenser
+  id: 1048
+  type: asset
+- description: Ackumulerade avskrivningar på licenser
+  id: 1049
+  type: asset
+- description: Varumärken
+  id: 1050
+  type: asset
+- description: Ackumulerade nedskrivningar på varumärken
+  id: 1058
+  type: asset
+- description: Ackumulerade avskrivningar på varumärken
+  id: 1059
+  type: asset
+- description: Hyresrätter, tomträtter och liknande
+  id: 1060
+  type: asset
+- description: Ackumulerade nedskrivningar på hyresrätter, tomträtter och liknande
+  id: 1068
+  type: asset
+- description: Ackumulerade avskrivningar på hyresrätter, tomträtter och liknande
+  id: 1069
+  type: asset
+- description: Goodwill
+  id: 1070
+  type: asset
+- description: Ackumulerade nedskrivningar på goodwill
+  id: 1078
+  type: asset
+- description: Ackumulerade avskrivningar på goodwill
+  id: 1079
+  type: asset
+- description: Pågående projekt och förskott för immateriella anläggningstillgångar
+  id: 1080
+  type: asset
+- description: Pågående projekt för immateriella anläggningstillgångar
+  id: 1081
+  type: asset
+- description: Förskott för immateriella anläggningstillgångar
+  id: 1088
+  type: asset
+- description: Byggnader
+  id: 1110
+  type: asset
+- description: Byggnader på egen mark
+  id: 1111
+  type: asset
+- description: Byggnader på annans mark
+  id: 1112
+  type: asset
+- description: Ackumulerade nedskrivningar på byggnader
+  id: 1118
+  type: asset
+- description: Ackumulerade avskrivningar på byggnader
+  id: 1119
+  type: asset
+- description: Förbättringsutgifter på annans fastighet
+  id: 1120
+  type: asset
+- description: Ackumulerade avskrivningar på förbättringsutgifter på annans fastighet
+  id: 1129
+  type: asset
+- description: Mark
+  id: 1130
+  type: asset
+- description: Tomter och obebyggda markområden
+  id: 1140
+  type: asset
+- description: Markanläggningar
+  id: 1150
+  type: asset
+- description: Ackumulerade nedskrivningar på markanläggningar
+  id: 1158
+  type: asset
+- description: Ackumulerade avskrivningar på markanläggningar
+  id: 1159
+  type: asset
+- description: Pågående nyanläggningar och förskott för byggnader och mark
+  id: 1180
+  type: asset
+- description: Pågående ny-, till- och ombyggnad
+  id: 1181
+  type: asset
+- description: Förskott för byggnader och mark
+  id: 1188
+  type: asset
+- description: Maskiner och andra tekniska anläggningar
+  id: 1210
+  type: asset
+- description: Maskiner
+  id: 1211
+  type: asset
+- description: Andra tekniska anläggningar
+  id: 1213
+  type: asset
+- description: Ackumulerade nedskrivningar på maskiner och andra tekniska anläggningar
+  id: 1218
+  type: asset
+- description: Ackumulerade avskrivningar på maskiner och andra tekniska anläggningar
+  id: 1219
+  type: asset
+- description: Inventarier och verktyg
+  id: 1220
+  type: asset
+- description: Inventarier
+  id: 1221
+  type: asset
+- description: Byggnadsinventarier
+  id: 1222
+  type: asset
+- description: Markinventarier
+  id: 1223
+  type: asset
+- description: Verktyg
+  id: 1225
+  type: asset
+- description: Ackumulerade nedskrivningar på inventarier och verktyg
+  id: 1228
+  type: asset
+- description: Ackumulerade avskrivningar på inventarier och verktyg
+  id: 1229
+  type: asset
+- description: Installationer
+  id: 1230
+  type: asset
+- description: Installationer på egen fastighet
+  id: 1231
+  type: asset
+- description: Installationer på annans fastig het
+  id: 1232
+  type: asset
+- description: Ackumulerade nedskrivningar på installationer
+  id: 1238
+  type: asset
+- description: Ackumulerade avskrivningar på installationer
+  id: 1239
+  type: asset
+- description: Bilar och andra transportmedel
+  id: 1240
+  type: asset
+- description: Personbilar
+  id: 1241
+  type: asset
+- description: Lastbilar
+  id: 1242
+  type: asset
+- description: Truckar
+  id: 1243
+  type: asset
+- description: Arbetsmaskiner
+  id: 1244
+  type: asset
+- description: Traktorer
+  id: 1245
+  type: asset
+- description: Motorcyklar, mopeder och skotrar
+  id: 1246
+  type: asset
+- description: Båtar, flygplan och helikoptrar
+  id: 1247
+  type: asset
+- description: Ackumulerade nedskrivningar på bilar och andra transportmedel
+  id: 1248
+  type: asset
+- description: Ackumulerade avskrivningar på bilar och andra transportmedel
+  id: 1249
+  type: asset
+- description: Datorer
+  id: 1250
+  type: asset
+- description: Datorer, företaget
+  id: 1251
+  type: asset
+- description: Datorer, personal
+  id: 1257
+  type: asset
+- description: Ackumulerade nedskrivningar på datorer
+  id: 1258
+  type: asset
+- description: Ackumulerade avskrivningar på datorer
+  id: 1259
+  type: asset
+- description: Leasade tillgångar
+  id: 1260
+  type: asset
+- description: Ackumulerade avskrivningar på leasade tillgångar
+  id: 1269
+  type: asset
+- description: Pågående nyanläggningar och förskott för maskiner och inventarier
+  id: 1280
+  type: asset
+- description: Pågående nyanläggningar, maskiner och inventarier
+  id: 1281
+  type: asset
+- description: Förskott för maskiner och inventarier
+  id: 1288
+  type: asset
+- description: Övriga materiella anläggningstillgångar
+  id: 1290
+  type: asset
+- description: Konst och liknande tillgångar
+  id: 1291
+  type: asset
+- description: Djur som klassificeras som anläggningstillgång
+  id: 1292
+  type: asset
+- description: Ackumulerade nedskrivningar på övriga materiella anläggningstillgångar
+  id: 1298
+  type: asset
+- description: Ackumulerade avskrivningar på övriga materiella anläggningstillgångar
+  id: 1299
+  type: asset
+- description: Andelar i koncernföretag
+  id: 1310
+  type: asset
+- description: Aktier i noterade svenska koncernföretag
+  id: 1311
+  type: asset
+- description: Aktier i onoterade svenska koncernföretag
+  id: 1312
+  type: asset
+- description: Aktier i noterade utländska koncernföretag
+  id: 1313
+  type: asset
+- description: Aktier i onoterade utländska koncernföretag
+  id: 1314
+  type: asset
+- description: Övriga andelar i koncernföretag
+  id: 1316
+  type: asset
+- description: Ackumulerade nedskrivningar av andelar i koncernföretag
+  id: 1318
+  type: asset
+- description: Långfristiga fordringar hos koncernföretag
+  id: 1320
+  type: asset
+- description: Långfristiga fordringar hos moderföretag
+  id: 1321
+  type: asset
+- description: Långfristiga fordringar hos dotterföretag
+  id: 1322
+  type: asset
+- description: Långfristiga fordringar hos andra koncernföretag
+  id: 1323
+  type: asset
+- description: Ackumulerade nedskrivningar av långfristiga fordringar hos koncernföretag
+  id: 1328
+  type: asset
+- description: Andelar i intresseföretag, gemensamt styrda företag och övriga företag
+    som det finns ett ägarintresse i
+  id: 1330
+  type: asset
+- description: Andelar i intresseföretag
+  id: 1331
+  type: asset
+- description: Ackumulerade nedskrivningar av andelar i intresseföretag
+  id: 1332
+  type: asset
+- description: Andelar i gemensamt styrda företag
+  id: 1333
+  type: asset
+- description: Ackumulerade nedskrivningar av andelar i gemensamt styrda företag
+  id: 1334
+  type: asset
+- description: Andelar i övriga företag som det finns ett ägarintresse i
+  id: 1336
+  type: asset
+- description: Ackumulerade nedskrivningar av andelar i övriga företag som det finns
+    ett ägarintresse i
+  id: 1337
+  type: asset
+- description: Ackumulerade nedskrivningar av andelar i intresseföretag, gemensamt
+    styrda företag och övriga företag som det finns ett ägarintresse i
+  id: 1338
+  type: asset
+- description: Långfristiga fordringar hos intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 1340
+  type: asset
+- description: Långfristiga fordringar hos intresseföretag
+  id: 1341
+  type: asset
+- description: Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag
+  id: 1342
+  type: asset
+- description: Långfristiga fordringar hos gemensamt styrda företag
+  id: 1343
+  type: asset
+- description: Ackumulerade nedskrivningar av långfristiga fordringar hos gemensamt
+    styrda företag
+  id: 1344
+  type: asset
+- description: Långfristiga fordringar hos övriga företag som det finns ett ägarintresse
+    i
+  id: 1346
+  type: asset
+- description: Ackumulerade nedskrivningar av långfristiga fordringar hos övriga företag
+    som det finns ett ägarintresse i
+  id: 1347
+  type: asset
+- description: Ackumulerade nedskrivningar av långfristiga fordringar hos intresseföretag,
+    gemensamt styrda företag och övriga företag som det finns ett ägarintresse i
+  id: 1348
+  type: asset
+- description: Andelar och värdepapper i andra företag
+  id: 1350
+  type: asset
+- description: Andelar i börsnoterade företag
+  id: 1351
+  type: asset
+- description: Andra andelar
+  id: 1352
+  type: asset
+- description: Andelar i bostadsrättsföreningar
+  id: 1353
+  type: asset
+- description: Obligationer
+  id: 1354
+  type: asset
+- description: Andelar i ekonomiska föreningar, övriga företag
+  id: 1356
+  type: asset
+- description: Andelar i handelsbolag, andra företag
+  id: 1357
+  type: asset
+- description: Ackumulerade nedskrivningar av andra andelar och värdepapper
+  id: 1358
+  type: asset
+- description: Lån till delägare eller närstående enligt ABL, långfristig del
+  id: 1360
+  type: asset
+- description: Ackumulerade nedskrivningar av lån till delägare eller närstående enligt
+    ABL, långfristig del
+  id: 1369
+  type: asset
+- description: Uppskjuten skattefordran
+  id: 1370
+  type: asset
+- description: Andra långfristiga fordringar
+  id: 1380
+  type: asset
+- description: Långfristiga reversfordringar
+  id: 1381
+  type: asset
+- description: Långfristiga fordringar hos anställda
+  id: 1382
+  type: asset
+- description: Lämnade depositioner, långfristiga
+  id: 1383
+  type: asset
+- description: Derivat
+  id: 1384
+  type: asset
+- description: Värde av kapitalförsäkring
+  id: 1385
+  type: asset
+- description: Förutbetalda leasingavgifter, långfristig del
+  id: 1386
+  type: asset
+- description: Långfristiga kontraktsfordringar
+  id: 1387
+  type: asset
+- description: Långfristiga kundfordringar
+  id: 1388
+  type: asset
+- description: Ackumulerade nedskrivningar av andra långfristiga fordringar
+  id: 1389
+  type: asset
+- description: Lager av råvaror
+  id: 1410
+  type: asset
+- description: Förändring av lager av råvaror
+  id: 1419
+  type: asset
+- description: Lager av tillsatsmaterial och förnödenheter
+  id: 1420
+  type: asset
+- description: Förändring av lager av tillsatsmaterial och förnödenheter
+  id: 1429
+  type: asset
+- description: Lager av halvfabrikat
+  id: 1430
+  type: asset
+- description: Lager av köpta halvfabrikat
+  id: 1431
+  type: asset
+- description: Lager av egentillverkade halvfabrikat
+  id: 1432
+  type: asset
+- description: Förändring av lager av köpta halvfabrikat
+  id: 1438
+  type: asset
+- description: Förändring av lager av egentillverkade halvfabrikat
+  id: 1439
+  type: asset
+- description: Produkter i arbete
+  id: 1440
+  type: asset
+- description: Förändring av produkter i arbete
+  id: 1449
+  type: asset
+- description: Lager av färdiga varor
+  id: 1450
+  type: asset
+- description: Förändring av lager av färdiga varor
+  id: 1459
+  type: asset
+- description: Lager av handelsvaror
+  id: 1460
+  type: asset
+- description: Lager av varor VMB
+  id: 1465
+  type: asset
+- description: Nedskrivning av varor VMB
+  id: 1466
+  type: asset
+- description: Lager av varor VMB förenklad
+  id: 1467
+  type: asset
+- description: Förändring av lager av handelsvaror
+  id: 1469
+  type: asset
+- description: Pågående arbeten
+  id: 1470
+  type: asset
+- description: Pågående arbeten, nedlagda kostnader
+  id: 1471
+  type: asset
+- description: Pågående arbeten, fakturering
+  id: 1478
+  type: asset
+- description: Förändring av pågående arbeten
+  id: 1479
+  type: asset
+- description: Förskott för varor och tjänster
+  id: 1480
+  type: asset
+- description: Remburser
+  id: 1481
+  type: asset
+- description: Övriga förskott till leverantörer
+  id: 1489
+  type: asset
+- description: Övriga lagertillgångar
+  id: 1490
+  type: asset
+- description: Lager av värdepapper
+  id: 1491
+  type: asset
+- description: Lager av fastigheter
+  id: 1492
+  type: asset
+- description: Djur som klassificeras som omsättningstillgång
+  id: 1493
+  type: asset
+- description: Kundfordringar
+  id: 1510
+  type: asset
+- description: Kundfordringar
+  id: 1511
+  type: asset
+- description: Kundfordringar – delad faktura
+  id: 1513
+  type: asset
+- description: Belånade kundfordringar (factoring)
+  id: 1512
+  type: asset
+- description: Osäkra kundfordringar
+  id: 1515
+  type: asset
+- description: Tvistiga kundfordringar
+  id: 1516
+  type: asset
+- description: Ej reskontraförda kundfordringar
+  id: 1518
+  type: asset
+- description: Nedskrivning av kundfordringar
+  id: 1519
+  type: asset
+- description: Växelfordringar
+  id: 1520
+  type: asset
+- description: Osäkra växelfordringar
+  id: 1525
+  type: asset
+- description: Nedskrivning av växelfordringar
+  id: 1529
+  type: asset
+- description: Kontraktsfordringar
+  id: 1530
+  type: asset
+- description: Kontraktsfordringar
+  id: 1531
+  type: asset
+- description: Belånade kontraktsfordringar
+  id: 1532
+  type: asset
+- description: Osäkra kontraktsfordringar
+  id: 1535
+  type: asset
+- description: Tvistiga kontraktsfordringar
+  id: 1536
+  type: asset
+- description: Nedskrivning av kontraktsfordringar
+  id: 1539
+  type: asset
+- description: Konsignationsfordringar
+  id: 1550
+  type: asset
+- description: Kundfordringar hos koncernföretag
+  id: 1560
+  type: asset
+- description: Kundfordringar hos moderföretag
+  id: 1561
+  type: asset
+- description: Kundfordringar hos dotterföretag
+  id: 1562
+  type: asset
+- description: Kundfordringar hos andra koncernföretag
+  id: 1563
+  type: asset
+- description: Osäkra kundfordringar hos koncernföretag
+  id: 1565
+  type: asset
+- description: Ej reskontraförda kundfordringar hos koncernföretag
+  id: 1568
+  type: asset
+- description: Nedskrivning av kundfordringar hos koncernföretag
+  id: 1569
+  type: asset
+- description: Kundfordringar hos intresseföretag, gemensamt styrda företag och övriga
+    företag som det finns ett ägarintresse i
+  id: 1570
+  type: asset
+- description: Kundfordringar hos intresseföretag
+  id: 1571
+  type: asset
+- description: Kundfordringar hos gemensamt styrda företag
+  id: 1572
+  type: asset
+- description: Kundfordringar hos övriga företag som det finns ett ägarintresse i
+  id: 1573
+  type: asset
+- description: Fordringar för kontokort och kuponger
+  id: 1580
+  type: asset
+- description: Kortfristiga fordringar hos anställda
+  id: 1610
+  type: asset
+- description: Reseförskott
+  id: 1611
+  type: asset
+- description: Kassaförskott
+  id: 1612
+  type: asset
+- description: Övriga förskott
+  id: 1613
+  type: asset
+- description: Tillfälliga lån till anställda
+  id: 1614
+  type: asset
+- description: Övriga fordringar hos anställda
+  id: 1619
+  type: asset
+- description: Upparbetad men ej fakturerad intäkt
+  id: 1620
+  type: asset
+- description: Avräkning för skatter och avgifter (skattekonto)
+  id: 1630
+  type: asset
+- description: Skattefordringar
+  id: 1640
+  type: asset
+- description: Momsfordran
+  id: 1650
+  type: asset
+- description: Kortfristiga fordringar hos koncernföretag
+  id: 1660
+  type: asset
+- description: Kortfristiga fordringar hos moderföretag
+  id: 1661
+  type: asset
+- description: Kortfristiga fordringar hos dotterföretag
+  id: 1662
+  type: asset
+- description: Kortfristiga fordringar hos andra koncernföretag
+  id: 1663
+  type: asset
+- description: Kortfristiga fordringar hos intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 1670
+  type: asset
+- description: Kortfristiga fordringar hos intresseföretag
+  id: 1671
+  type: asset
+- description: Kortfristiga fordringar hos gemensamt styrda företag
+  id: 1672
+  type: asset
+- description: Kortfristiga fordringar hos övriga företag som det finns ett ägarintresse
+    i
+  id: 1673
+  type: asset
+- description: Andra kortfristiga fordringar
+  id: 1680
+  type: asset
+- description: Utlägg för kunder
+  id: 1681
+  type: asset
+- description: Kortfristiga lånefordringar
+  id: 1682
+  type: asset
+- description: Derivat
+  id: 1683
+  type: asset
+- description: Kortfristiga fordringar hos leverantörer
+  id: 1684
+  type: asset
+- description: Kortfristiga fordringar hos delägare eller närstående enligt ABL
+  id: 1685
+  type: asset
+- description: Kortfristig del av långfristiga fordringar
+  id: 1687
+  type: asset
+- description: Fordran arbetsmarknadsförsäkringar
+  id: 1688
+  type: asset
+- description: Övriga kortfristiga fordringar
+  id: 1689
+  type: asset
+- description: Fordringar för tecknat men ej inbetalt aktiekapital
+  id: 1690
+  type: asset
+- description: Förutbetalda hyreskostnader
+  id: 1710
+  type: asset
+- description: Förutbetalda leasingavgifter, kortfristig del
+  id: 1720
+  type: asset
+- description: Förutbetalda försäkringspremier
+  id: 1730
+  type: asset
+- description: Förutbetalda räntekostnader
+  id: 1740
+  type: asset
+- description: Upplupna hyresintäkter
+  id: 1750
+  type: asset
+- description: Upplupna ränteintäkter
+  id: 1760
+  type: asset
+- description: Tillgångar av kostnadsnatur
+  id: 1770
+  type: asset
+- description: Upplupna avtalsintäkter
+  id: 1780
+  type: asset
+- description: Övriga förutbetalda kostnader och upplupna intäkter
+  id: 1790
+  type: asset
+- description: Andelar i börsnoterade företag
+  id: 1810
+  type: asset
+- description: Obligationer
+  id: 1820
+  type: asset
+- description: Konvertibla skuldebrev
+  id: 1830
+  type: asset
+- description: Andelar i koncernföretag
+  id: 1860
+  type: asset
+- description: Nedskrivning av andelar i koncernföretag
+  id: 1869
+  type: asset
+- description: Andra kortfristiga placeringar
+  id: 1880
+  type: asset
+- description: Derivat
+  id: 1886
+  type: asset
+- description: Andelar i övriga företag
+  id: 1889
+  type: asset
+- description: Nedskrivning av kortfristiga placeringar
+  id: 1890
+  type: asset
+- description: Kassa
+  id: 1910
+  type: asset
+- description: Huvudkassa
+  id: 1911
+  type: asset
+- description: Kassa 2
+  id: 1912
+  type: asset
+- description: Kassa 3
+  id: 1913
+  type: asset
+- description: PlusGiro
+  id: 1920
+  type: asset
+- description: Företagskonto/checkkonto/affärskonto
+  id: 1930
+  type: asset
+- description: Övriga bankkonton
+  id: 1940
+  type: asset
+- description: Bankcertifikat
+  id: 1950
+  type: asset
+- description: Koncernkonto moderföretag
+  id: 1960
+  type: asset
+- description: Särskilda bankkonton
+  id: 1970
+  type: asset
+- description: Upphovsmannakonto
+  id: 1972
+  type: asset
+- description: Skogskonto
+  id: 1973
+  type: asset
+- description: Spärrade bankmedel
+  id: 1974
+  type: asset
+- description: Övriga särskilda bankkonton
+  id: 1979
+  type: asset
+- description: Valutakonton
+  id: 1980
+  type: asset
+- description: Redovisningsmedel
+  id: 1990
+  type: asset
+- description: Eget kapital, delägare 1
+  id: 2010
+  type: liability
+- description: Egna varuuttag
+  id: 2011
+  type: liability
+- description: Övriga egna uttag
+  id: 2013
+  type: liability
+- description: Årets kapitaltillskott
+  id: 2017
+  type: liability
+- description: Övriga egna insättningar
+  id: 2018
+  type: liability
+- description: Årets resultat, delägare 1
+  id: 2019
+  type: liability
+- description: Eget kapital, delägare 2
+  id: 2020
+  type: liability
+- description: Eget kapital, delägare 3
+  id: 2030
+  type: liability
+- description: Eget kapital, delägare 4
+  id: 2040
+  type: liability
+- description: Avsättning till expansionsfond
+  id: 2050
+  type: liability
+- description: Eget kapital i ideella föreningar, stiftelser och registrerade trossamfund
+  id: 2060
+  type: liability
+- description: Eget kapital/stiftelsekapital/grundkapital
+  id: 2061
+  type: liability
+- description: Förändring i fond för verkligt värde
+  id: 2065
+  type: liability
+- description: Värdesäkringsfond
+  id: 2066
+  type: liability
+- description: Balanserad vinst eller förlust/balanserat kapital
+  id: 2067
+  type: liability
+- description: Vinst eller förlust från föregående år
+  id: 2068
+  type: liability
+- description: Årets resultat
+  id: 2069
+  type: liability
+- description: Ändamålsbestämda medel
+  id: 2070
+  type: liability
+- description: Ändamål 1
+  id: 2071
+  type: liability
+- description: Ändamål 2
+  id: 2072
+  type: liability
+- description: Bundet eget kapital
+  id: 2080
+  type: liability
+- description: Aktiekapital
+  id: 2081
+  type: liability
+- description: Ej registrerat aktiekapital
+  id: 2082
+  type: liability
+- description: Medlemsinsatser
+  id: 2083
+  type: liability
+- description: Förlagsinsatser
+  id: 2084
+  type: liability
+- description: Uppskrivningsfond
+  id: 2085
+  type: liability
+- description: Reservfond
+  id: 2086
+  type: liability
+- description: Insatsemission
+  id: 2087
+  type: liability
+- description: Fond för yttre underhåll
+  id: 2088
+  type: liability
+- description: Fond för utvecklingsutgifter
+  id: 2089
+  type: liability
+- description: Fritt eget kapital
+  id: 2090
+  type: liability
+- description: Balanserad vinst eller förlust
+  id: 2091
+  type: liability
+- description: Mottagna/lämnade koncernbidrag
+  id: 2092
+  type: liability
+- description: Erhållna aktieägartillskott
+  id: 2093
+  type: liability
+- description: Egna aktier
+  id: 2094
+  type: liability
+- description: Fusionsresultat
+  id: 2095
+  type: liability
+- description: Fond för verkligt värde
+  id: 2096
+  type: liability
+- description: Överkursfond
+  id: 2097
+  type: liability
+- description: Vinst eller förlust från föregående år
+  id: 2098
+  type: liability
+- description: Årets resultat
+  id: 2099
+  type: liability
+- description: Periodiseringsfonder
+  id: 2110
+  type: liability
+- description: Periodiseringsfond vid 2010 års taxering
+  id: 2110
+  type: liability
+- description: Periodiseringsfond vid 2011 års taxering
+  id: 2111
+  type: liability
+- description: Periodiseringsfond vid 2012 års taxering
+  id: 2112
+  type: liability
+- description: Periodiseringsfond vid 2013 års taxering
+  id: 2113
+  type: liability
+- description: Periodiseringsfonder
+  id: 2120
+  type: liability
+- description: Periodiseringsfond 2013
+  id: 2123
+  type: liability
+- description: Periodiseringsfond 2014
+  id: 2124
+  type: liability
+- description: Periodiseringsfond 2015
+  id: 2125
+  type: liability
+- description: Periodiseringsfond 2016
+  id: 2126
+  type: liability
+- description: Periodiseringsfond 2017
+  id: 2127
+  type: liability
+- description: Periodiseringsfond 2018
+  id: 2128
+  type: liability
+- description: Periodiseringsfond 2019
+  id: 2129
+  type: liability
+- description: Periodiseringsfonder
+  id: 2130
+  type: liability
+- description: Periodiseringsfond 2020 – nr 2
+  id: 2130
+  type: liability
+- description: Periodiseringsfond 2021 – nr 2
+  id: 2131
+  type: liability
+- description: Periodiseringsfond 2022 – nr 2
+  id: 2132
+  type: liability
+- description: Periodiseringsfond 2023 – nr 2
+  id: 2133
+  type: liability
+- description: Periodiseringsfond 2024 – nr 2
+  id: 2134
+  type: liability
+- description: Periodiseringsfond 2015 – nr 2
+  id: 2135
+  type: liability
+- description: Periodiseringsfond 2016 – nr 2
+  id: 2136
+  type: liability
+- description: Periodiseringsfond 2017 – nr 2
+  id: 2137
+  type: liability
+- description: Periodiseringsfond 2018 – nr 2
+  id: 2138
+  type: liability
+- description: Periodiseringsfond 2019 – nr 2
+  id: 2139
+  type: liability
+- description: Ackumulerade överavskrivningar
+  id: 2150
+  type: liability
+- description: Ackumulerade överavskrivningar på immateriella anläggningstillgångar
+  id: 2151
+  type: liability
+- description: Ackumulerade överavskrivningar på byggnader och markanläggningar
+  id: 2152
+  type: liability
+- description: Ackumulerade överavskrivningar på maskiner och inventarier
+  id: 2153
+  type: liability
+- description: Ersättningsfond
+  id: 2160
+  type: liability
+- description: Ersättningsfond maskiner och inventarier
+  id: 2161
+  type: liability
+- description: Ersättningsfond byggnader och markanläggningar
+  id: 2162
+  type: liability
+- description: Ersättningsfond mark
+  id: 2163
+  type: liability
+- description: Ersättningsfond för djurlager i jordbruk och renskötsel
+  id: 2164
+  type: liability
+- description: Obeskattade intäkter
+  id: 2180
+  type: liability
+- description: Obeskattade upphovsmannaintäkter
+  id: 2181
+  type: liability
+- description: Obeskattade skogsintäkter
+  id: 2185
+  type: liability
+- description: Övriga obeskattade reserver
+  id: 2190
+  type: liability
+- description: Lagerreserv
+  id: 2196
+  type: liability
+- description: Övriga obeskattade reserver
+  id: 2199
+  type: liability
+- description: Avsättningar för pensioner enligt tryggandelagen
+  id: 2210
+  type: liability
+- description: Avsättningar för garantier
+  id: 2220
+  type: liability
+- description: Övriga avsättningar för pensioner och liknande förpliktelser
+  id: 2230
+  type: liability
+- description: Avsättningar för uppskjutna skatter
+  id: 2240
+  type: liability
+- description: Övriga avsättningar för skatter
+  id: 2250
+  type: liability
+- description: Avsättningar för tvistiga skatter
+  id: 2252
+  type: liability
+- description: Avsättningar särskild löneskatt, deklarationspost
+  id: 2253
+  type: liability
+- description: Övriga avsättningar
+  id: 2290
+  type: liability
+- description: Obligations- och förlagslån
+  id: 2310
+  type: liability
+- description: Konvertibla lån och liknande
+  id: 2320
+  type: liability
+- description: Konvertibla lån
+  id: 2321
+  type: liability
+- description: Lån förenade med optionsrätt
+  id: 2322
+  type: liability
+- description: Vinstandelslån
+  id: 2323
+  type: liability
+- description: Kapitalandelslån
+  id: 2324
+  type: liability
+- description: Checkräkningskredit
+  id: 2330
+  type: liability
+- description: Checkräkningskredit 1
+  id: 2331
+  type: liability
+- description: Checkräkningskredit 2
+  id: 2332
+  type: liability
+- description: Utnyttjad checkräkningskredit 1
+  id: 2331
+  type: liability
+- description: Utnyttjad checkräkningskredit 2
+  id: 2332
+  type: liability
+- description: Beviljad checkräkningskredit 1
+  id: 2335
+  type: liability
+- description: Beviljad checkräkningskredit 2
+  id: 2336
+  type: liability
+- description: Byggnadskreditiv
+  id: 2340
+  type: liability
+- description: Andra långfristiga skulder till kreditinstitut
+  id: 2350
+  type: liability
+- description: Fastighetslån, långfristig del
+  id: 2351
+  type: liability
+- description: Långfristiga lån i utländsk valuta från kreditinstitut
+  id: 2355
+  type: liability
+- description: Övriga långfristiga lån från kreditinstitut
+  id: 2359
+  type: liability
+- description: Långfristiga skulder till koncernföretag
+  id: 2360
+  type: liability
+- description: Långfristiga skulder till moderföretag
+  id: 2361
+  type: liability
+- description: Långfristiga skulder till dotterföretag
+  id: 2362
+  type: liability
+- description: Långfristiga skulder till andra koncernföretag
+  id: 2363
+  type: liability
+- description: Långfristiga skulder till intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 2370
+  type: liability
+- description: Långfristiga skulder till intresseföretag
+  id: 2371
+  type: liability
+- description: Långfristiga skulder till gemensamt styrda företag
+  id: 2372
+  type: liability
+- description: Långfristiga skulder till övriga företag som det finns ett ägarintresse
+    i
+  id: 2373
+  type: liability
+- description: Övriga långfristiga skulder
+  id: 2390
+  type: liability
+- description: Avbetalningskontrakt, långfristig del
+  id: 2391
+  type: liability
+- description: Villkorliga långfristiga skulder
+  id: 2392
+  type: liability
+- description: Lån från närstående personer, långfristig del
+  id: 2393
+  type: liability
+- description: Långfristiga leverantörskrediter
+  id: 2394
+  type: liability
+- description: Andra långfristiga lån i utländsk valuta
+  id: 2395
+  type: liability
+- description: Derivat
+  id: 2396
+  type: liability
+- description: Mottagna depositioner, långfristiga
+  id: 2397
+  type: liability
+- description: Övriga långfristiga skulder
+  id: 2399
+  type: liability
+- description: Andra kortfristiga låneskulder till kreditinstitut
+  id: 2410
+  type: liability
+- description: Kortfristiga lån från kreditinstitut
+  id: 2411
+  type: liability
+- description: Kortfristig del av långfristiga skulder till kreditinstitut
+  id: 2417
+  type: liability
+- description: Övriga kortfristiga skulder till kreditinstitut
+  id: 2419
+  type: liability
+- description: Förskott från kunder
+  id: 2420
+  type: liability
+- description: Ej inlösta presentkort
+  id: 2421
+  type: liability
+- description: Övriga förskott från kunder
+  id: 2429
+  type: liability
+- description: Pågående arbeten
+  id: 2430
+  type: liability
+- description: Pågående arbeten, fakturering
+  id: 2431
+  type: liability
+- description: Pågående arbeten, nedlagda kostnader
+  id: 2438
+  type: liability
+- description: Beräknad förändring av pågående arbeten
+  id: 2439
+  type: liability
+- description: Leverantörsskulder
+  id: 2440
+  type: liability
+- description: Leverantörsskulder
+  id: 2441
+  type: liability
+- description: Konsignationsskulder
+  id: 2443
+  type: liability
+- description: Tvistiga leverantörsskulder
+  id: 2445
+  type: liability
+- description: Ej reskontraförda leverantörsskulder
+  id: 2448
+  type: liability
+- description: Fakturerad men ej upparbetad intäkt
+  id: 2450
+  type: liability
+- description: Leverantörsskulder till koncernföretag
+  id: 2460
+  type: liability
+- description: Leverantörsskulder till moderföretag
+  id: 2461
+  type: liability
+- description: Leverantörsskulder till dotterföretag
+  id: 2462
+  type: liability
+- description: Leverantörsskulder till andra koncernföretag
+  id: 2463
+  type: liability
+- description: Leverantörsskulder till intresseföretag, gemensamt styrda företag och
+    övriga företag som det finns ett ägarintresse i
+  id: 2470
+  type: liability
+- description: Leverantörsskulder till intresseföretag
+  id: 2471
+  type: liability
+- description: Leverantörsskulder till gemensamt styrda företag
+  id: 2472
+  type: liability
+- description: Leverantörsskulder till övriga företag som det finns ett ägarintresse
+    i
+  id: 2473
+  type: liability
+- description: Checkräkningskredit, kortfristig
+  id: 2480
+  type: liability
+- description: Övriga kortfristiga skulder till kreditinstitut, kunder och leverantörer
+  id: 2490
+  type: liability
+- description: Avräkning spelarrangörer
+  id: 2491
+  type: liability
+- description: Växelskulder
+  id: 2492
+  type: liability
+- description: Andra övriga kortfristiga skulder
+  id: 2499
+  type: liability
+- description: Skatteskulder
+  id: 2510
+  type: liability
+- description: Beräknad inkomstskatt
+  id: 2512
+  type: liability
+- description: Beräknad fastighetsskatt/fastighetsavgift
+  id: 2513
+  type: liability
+- description: Beräknad särskild löneskatt på pensionskostnader
+  id: 2514
+  type: liability
+- description: Beräknad avkastningsskatt
+  id: 2515
+  type: liability
+- description: Moms
+  id: 2516
+  type: liability
+- description: Beräknad utländsk skatt
+  id: 2517
+  type: liability
+- description: Betald F-skatt
+  id: 2518
+  type: liability
+- description: Utgående moms, 25 %
+  id: 2610
+  type: liability
+- description: Utgående moms på försäljning inom Sverige, 25 %
+  id: 2611
+  type: liability
+- description: Utgående moms på egna uttag, 25 %
+  id: 2612
+  type: liability
+- description: Utgående moms för uthyrning, 25 %
+  id: 2613
+  type: liability
+- description: Utgående moms omvänd skattskyldighet, 25 %
+  id: 2614
+  type: liability
+- description: Utgående moms import av varor, 25 %
+  id: 2615
+  type: liability
+- description: Utgående moms VMB 25 %
+  id: 2616
+  type: liability
+- description: Vilande utgående moms, 25 %
+  id: 2618
+  type: liability
+- description: Utgående moms, 12 %
+  id: 2620
+  type: liability
+- description: Utgående moms på försäljning inom Sverige, 12 %
+  id: 2621
+  type: liability
+- description: Utgående moms på egna uttag, 12 %
+  id: 2622
+  type: liability
+- description: Utgående moms för uthyrning, 12 %
+  id: 2623
+  type: liability
+- description: Utgående moms omvänd skattskyldighet, 12 %
+  id: 2624
+  type: liability
+- description: Utgående moms import av varor, 12 %
+  id: 2625
+  type: liability
+- description: Utgående moms VMB 12 %
+  id: 2626
+  type: liability
+- description: Vilande utgående moms, 12 %
+  id: 2628
+  type: liability
+- description: Utgående moms, 6 %
+  id: 2630
+  type: liability
+- description: Utgående moms på försäljning inom Sverige, 6 %
+  id: 2631
+  type: liability
+- description: Utgående moms på egna uttag, 6 %
+  id: 2632
+  type: liability
+- description: Utgående moms för uthyrning, 6 %
+  id: 2633
+  type: liability
+- description: Utgående moms omvänd skattskyldighet, 6 %
+  id: 2634
+  type: liability
+- description: Utgående moms import av varor, 6 %
+  id: 2635
+  type: liability
+- description: Utgående moms VMB 6 %
+  id: 2636
+  type: liability
+- description: Vilande utgående moms, 6 %
+  id: 2638
+  type: liability
+- description: Ingående moms
+  id: 2640
+  type: liability
+- description: Debiterad ingående moms
+  id: 2641
+  type: liability
+- description: Debiterad ingående moms i anslutning till frivillig skattskyldighet
+  id: 2642
+  type: liability
+- description: Beräknad ingående moms på förvärv från utlandet
+  id: 2645
+  type: liability
+- description: Ingående moms på uthyrning
+  id: 2646
+  type: liability
+- description: Ingående moms omvänd skattskyldighet varor och tjänster i Sverige
+  id: 2647
+  type: liability
+- description: Vilande ingående moms
+  id: 2648
+  type: liability
+- description: Ingående moms, blandad verksamhet
+  id: 2649
+  type: liability
+- description: Redovisningskonto för moms
+  id: 2650
+  type: liability
+- description: Särskilda punktskatter
+  id: 2660
+  type: liability
+- description: Reklamskatt
+  id: 2661
+  type: liability
+- description: Övriga punktskatter
+  id: 2669
+  type: liability
+- description: Personalskatt
+  id: 2710
+  type: liability
+- description: Lagstadgade sociala avgifter och särskild löneskatt
+  id: 2730
+  type: liability
+- description: Avräkning lagstadgade sociala avgifter
+  id: 2731
+  type: liability
+- description: Avräkning särskild löneskatt
+  id: 2732
+  type: liability
+- description: Avtalade sociala avgifter
+  id: 2740
+  type: liability
+- description: Utmätning i lön m.m.
+  id: 2750
+  type: liability
+- description: Semestermedel
+  id: 2760
+  type: liability
+- description: Avräkning semesterlöner
+  id: 2761
+  type: liability
+- description: Semesterlönekassa
+  id: 2762
+  type: liability
+- description: Övriga löneavdrag
+  id: 2790
+  type: liability
+- description: Personalens intressekonto
+  id: 2791
+  type: liability
+- description: Lönsparande
+  id: 2792
+  type: liability
+- description: Gruppförsäkringspremier
+  id: 2793
+  type: liability
+- description: Fackföreningsavgifter
+  id: 2794
+  type: liability
+- description: Mätnings- och granskningsarvoden
+  id: 2795
+  type: liability
+- description: Övriga löneavdrag
+  id: 2799
+  type: liability
+- description: Avräkning för factoring och belånade kontraktsfordringar
+  id: 2810
+  type: liability
+- description: Avräkning för factoring
+  id: 2811
+  type: liability
+- description: Avräkning för belånade kontraktsfordringar
+  id: 2812
+  type: liability
+- description: Kortfristiga skulder till anställda
+  id: 2820
+  type: liability
+- description: Löneskulder
+  id: 2821
+  type: liability
+- description: Reseräkningar
+  id: 2822
+  type: liability
+- description: Tantiem, gratifikationer
+  id: 2823
+  type: liability
+- description: Övriga kortfristiga skulder till anställda
+  id: 2829
+  type: liability
+- description: Avräkning för annans räkning
+  id: 2830
+  type: liability
+- description: Kortfristiga låneskulder
+  id: 2840
+  type: liability
+- description: Kortfristig del av långfristiga skulder
+  id: 2841
+  type: liability
+- description: Övriga kortfristiga låneskulder
+  id: 2849
+  type: liability
+- description: Avräkning för skatter och avgifter (skattekonto)
+  id: 2850
+  type: liability
+- description: Kortfristiga skulder till koncernföretag
+  id: 2860
+  type: liability
+- description: Kortfristiga skulder till moderföretag
+  id: 2861
+  type: liability
+- description: Kortfristiga skulder till dotterföretag
+  id: 2862
+  type: liability
+- description: Kortfristiga skulder till andra koncernföretag
+  id: 2863
+  type: liability
+- description: Kortfristiga skulder till intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 2870
+  type: liability
+- description: Kortfristiga skulder till intresseföretag
+  id: 2871
+  type: liability
+- description: Kortfristiga skulder till gemensamt styrda företag
+  id: 2872
+  type: liability
+- description: Kortfristiga skulder till övriga företag som det finns ett ägarintresse
+    i
+  id: 2873
+  type: liability
+- description: Skuld erhållna bidrag
+  id: 2880
+  type: liability
+- description: Övriga kortfristiga skulder
+  id: 2890
+  type: liability
+- description: Skulder under indrivning
+  id: 2891
+  type: liability
+- description: Inre reparationsfond/underhållsfond
+  id: 2892
+  type: liability
+- description: Skulder till närstående personer, kortfristig del
+  id: 2893
+  type: liability
+- description: Derivat (kortfristiga skulder)
+  id: 2895
+  type: liability
+- description: Mottagna depositioner, kortfristiga
+  id: 2897
+  type: liability
+- description: Outtagen vinstutdelning
+  id: 2898
+  type: liability
+- description: Övriga kortfristiga skulder
+  id: 2899
+  type: liability
+- description: Upplupna löner
+  id: 2910
+  type: liability
+- description: Löneskulder
+  id: 2911
+  type: liability
+- description: Ackordsöverskott
+  id: 2912
+  type: liability
+- description: Övriga upplupna löner
+  id: 2919
+  type: liability
+- description: Upplupna semesterlöner
+  id: 2920
+  type: liability
+- description: Upplupna pensionskostnader
+  id: 2930
+  type: liability
+- description: Upplupna pensionsutbetalningar
+  id: 2931
+  type: liability
+- description: Upplupna lagstadgade sociala och andra avgifter
+  id: 2940
+  type: liability
+- description: Beräknade upplupna lagstadgade sociala avgifter
+  id: 2941
+  type: liability
+- description: Beräknad upplupen särskild löneskatt
+  id: 2942
+  type: liability
+- description: Beräknad upplupen särskild löneskatt på pensionskostnader, deklarationspost
+  id: 2943
+  type: liability
+- description: Beräknad upplupen avkastningsskatt på pensionskostnader
+  id: 2944
+  type: liability
+- description: Upplupna avtalade sociala avgifter
+  id: 2950
+  type: liability
+- description: Upplupna avtalade arbetsmarknadsförsäkringar
+  id: 2951
+  type: liability
+- description: Upplupna avtalade pensionsförsäkringsavgifter, deklarationspost
+  id: 2959
+  type: liability
+- description: Upplupna räntekostnader
+  id: 2960
+  type: liability
+- description: Förutbetalda intäkter
+  id: 2970
+  type: liability
+- description: Förutbetalda hyresintäkter
+  id: 2971
+  type: liability
+- description: Förutbetalda medlemsavgifter
+  id: 2972
+  type: liability
+- description: Övriga förutbetalda intäkter
+  id: 2979
+  type: liability
+- description: Upplupna avtalskostnader
+  id: 2980
+  type: liability
+- description: Övriga upplupna kostnader och förutbetalda intäkter
+  id: 2990
+  type: liability
+- description: Beräknat arvode för bokslut
+  id: 2991
+  type: liability
+- description: Beräknat arvode för revision
+  id: 2992
+  type: liability
+- description: Ospecificerad skuld till leverantörer
+  id: 2993
+  type: liability
+- description: Övriga upplupna kostnader och förutbetalda intäkter
+  id: 2998
+  type: liability
+- description: OBS-konto
+  id: 2999
+  type: liability
+- description: Försäljning inom Sverige
+  id: 3000
+  type: revenue
+- description: Försäljning inom Sverige, 25 % moms
+  id: 3001
+  type: revenue
+- description: Försäljning inom Sverige, 12 % moms
+  id: 3002
+  type: revenue
+- description: Försäljning inom Sverige, 6 % moms
+  id: 3003
+  type: revenue
+- description: Försäljning inom Sverige, momsfri
+  id: 3004
+  type: revenue
+- description: Försäljning av varor utanför Sverige
+  id: 3100
+  type: revenue
+- description: Försäljning varor till land utanför EU
+  id: 3105
+  type: revenue
+- description: Försäljning varor till annat EU-land, momspliktig
+  id: 3106
+  type: revenue
+- description: Försäljning varor till annat EU-land, momsfri
+  id: 3108
+  type: revenue
+- description: Försäljning VMB och omvänd moms
+  id: 3200
+  type: revenue
+- description: Försäljning positiv VMB 25 %
+  id: 3211
+  type: revenue
+- description: Försäljning negativ VMB 25 %
+  id: 3212
+  type: revenue
+- description: Försäljning inom byggsektorn, omvänd skattskyldighet moms
+  id: 3231
+  type: revenue
+- description: Försäljning av tjänster utanför Sverige
+  id: 3300
+  type: revenue
+- description: Försäljning tjänster till land utanför EU
+  id: 3305
+  type: revenue
+- description: Försäljning tjänster till annat EU-land
+  id: 3308
+  type: revenue
+- description: Försäljning, egna uttag
+  id: 3400
+  type: revenue
+- description: Egna uttag momspliktiga, 25 %
+  id: 3401
+  type: revenue
+- description: Egna uttag momspliktiga, 12 %
+  id: 3402
+  type: revenue
+- description: Egna uttag momspliktiga, 6 %
+  id: 3403
+  type: revenue
+- description: Egna uttag, momsfria
+  id: 3404
+  type: revenue
+- description: Fakturerade kostnader (gruppkonto)
+  id: 3500
+  type: revenue
+- description: Fakturerat emballage
+  id: 3510
+  type: revenue
+- description: Fakturerat emballage
+  id: 3511
+  type: revenue
+- description: Returnerat emballage
+  id: 3518
+  type: revenue
+- description: Fakturerade frakter
+  id: 3520
+  type: revenue
+- description: Fakturerade frakter, EU-land
+  id: 3521
+  type: revenue
+- description: Fakturerade frakter, export
+  id: 3522
+  type: revenue
+- description: Fakturerade tull- och speditionskostnader m.m.
+  id: 3530
+  type: revenue
+- description: Faktureringsavgifter
+  id: 3540
+  type: revenue
+- description: Faktureringsavgifter, EU-land
+  id: 3541
+  type: revenue
+- description: Faktureringsavgifter, export
+  id: 3542
+  type: revenue
+- description: Fakturerade resekostnader
+  id: 3550
+  type: revenue
+- description: Fakturerade kostnader till koncernföretag
+  id: 3560
+  type: revenue
+- description: Fakturerade kostnader till moderföretag
+  id: 3561
+  type: revenue
+- description: Fakturerade kostnader till dotterföretag
+  id: 3562
+  type: revenue
+- description: Fakturerade kostnader till andra koncernföretag
+  id: 3563
+  type: revenue
+- description: Fakturerade kostnader till intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 3570
+  type: revenue
+- description: Övriga fakturerade kostnader
+  id: 3590
+  type: revenue
+- description: Rörelsens sidointäkter (gruppkonto)
+  id: 3600
+  type: revenue
+- description: Försäljning av material
+  id: 3610
+  type: revenue
+- description: Försäljning av råmaterial
+  id: 3611
+  type: revenue
+- description: Försäljning av skrot
+  id: 3612
+  type: revenue
+- description: Försäljning av förbrukningsmaterial
+  id: 3613
+  type: revenue
+- description: Försäljning av övrigt material
+  id: 3619
+  type: revenue
+- description: Tillfällig uthyrning av personal
+  id: 3620
+  type: revenue
+- description: Tillfällig uthyrning av transportmedel
+  id: 3630
+  type: revenue
+- description: Intäkter från värdepapper
+  id: 3670
+  type: revenue
+- description: Försäljning av värdepapper
+  id: 3671
+  type: revenue
+- description: Utdelning från värdepapper
+  id: 3672
+  type: revenue
+- description: Övriga intäkter från värdepapper
+  id: 3679
+  type: revenue
+- description: Management fees
+  id: 3680
+  type: revenue
+- description: Övriga sidointäkter
+  id: 3690
+  type: revenue
+- description: Intäktskorrigeringar (gruppkonto)
+  id: 3700
+  type: revenue
+- description: Ofördelade intäktsreduktioner
+  id: 3710
+  type: revenue
+- description: Lämnade rabatter
+  id: 3730
+  type: revenue
+- description: Lämnade kassarabatter
+  id: 3731
+  type: revenue
+- description: Lämnade mängdrabatter
+  id: 3732
+  type: revenue
+- description: Öres- och kronutjämning
+  id: 3740
+  type: revenue
+- description: Punktskatter
+  id: 3750
+  type: revenue
+- description: Intäktsförda punktskatter (kreditkonto)
+  id: 3751
+  type: revenue
+- description: Skuldförda punktskatter (debetkonto)
+  id: 3752
+  type: revenue
+- description: Övriga intäktskorrigeringar
+  id: 3790
+  type: revenue
+- description: Aktiverat arbete för egen räkning (gruppkonto)
+  id: 3800
+  type: revenue
+- description: Aktiverat arbete (material)
+  id: 3840
+  type: revenue
+- description: Aktiverat arbete (omkostnader)
+  id: 3850
+  type: revenue
+- description: Aktiverat arbete (personal)
+  id: 3870
+  type: revenue
+- description: Övriga rörelseintäkter (gruppkonto)
+  id: 3900
+  type: revenue
+- description: Hyres- och arrendeintäkter
+  id: 3910
+  type: revenue
+- description: Hyresintäkter
+  id: 3911
+  type: revenue
+- description: Arrendeintäkter
+  id: 3912
+  type: revenue
+- description: Frivilligt momspliktiga hyresintäkter
+  id: 3913
+  type: revenue
+- description: Övriga momspliktiga hyresintäkter
+  id: 3914
+  type: revenue
+- description: Provisionsintäkter, licensintäkter och royalties
+  id: 3920
+  type: revenue
+- description: Provisionsintäkter
+  id: 3921
+  type: revenue
+- description: Licensintäkter och royalties
+  id: 3922
+  type: revenue
+- description: Franchiseintäkter
+  id: 3925
+  type: revenue
+- description: Orealiserade negativa/positiva värdeförändringar på säkringsinstrument
+  id: 3940
+  type: revenue
+- description: Återvunna, tidigare avskrivna kundfordringar
+  id: 3950
+  type: revenue
+- description: Valutakursvinster på fordringar och skulder av rörelsekaraktär
+  id: 3960
+  type: revenue
+- description: Vinst vid avyttring av immateriella och materiella anläggningstillgångar
+  id: 3970
+  type: revenue
+- description: Vinst vid avyttring av immateriella anläggningstillgångar
+  id: 3971
+  type: revenue
+- description: Vinst vid avyttring av byggnader och mark
+  id: 3972
+  type: revenue
+- description: Vinst vid avyttring av maskiner och inventarier
+  id: 3973
+  type: revenue
+- description: Erhållna offentliga stöd m.m.
+  id: 3980
+  type: revenue
+- description: Erhållna EU-bidrag
+  id: 3981
+  type: revenue
+- description: Erhållna statliga bidrag
+  id: 3985
+  type: revenue
+- description: Erhållna kommunala bidrag
+  id: 3987
+  type: revenue
+- description: Erhållna bidrag och ersättningar för personal
+  id: 3988
+  type: revenue
+- description: Övriga erhållna bidrag
+  id: 3989
+  type: revenue
+- description: Övriga ersättningar och intäkter
+  id: 3990
+  type: revenue
+- description: Konfliktersättning
+  id: 3991
+  type: revenue
+- description: Erhållna skadestånd
+  id: 3992
+  type: revenue
+- description: Erhållna donationer och gåvor
+  id: 3993
+  type: revenue
+- description: Försäkringsersättningar
+  id: 3994
+  type: revenue
+- description: Erhållet ackord på skulder av rörelsekaraktär
+  id: 3995
+  type: revenue
+- description: Erhållna reklambidrag
+  id: 3996
+  type: revenue
+- description: Sjuklöneersättning
+  id: 3997
+  type: revenue
+- description: Övriga rörelseintäkter
+  id: 3999
+  type: revenue
+- description: Inköp av varor från Sverige
+  id: 4000
+  type: expense
+- description: Sålda varor VMB
+  id: 4200
+  type: expense
+- description: Sålda varor positiv VMB 25 %
+  id: 4211
+  type: expense
+- description: Sålda varor negativ VMB 25 %
+  id: 4212
+  type: expense
+- description: Momspliktiga inköp i Sverige
+  id: 4400
+  type: expense
+- description: Inköpta varor i Sverige, omvänd skattskyldighet, 25 % moms
+  id: 4415
+  type: expense
+- description: Inköpta varor i Sverige, omvänd skattskyldighet, 12 % moms
+  id: 4416
+  type: expense
+- description: Inköpta varor i Sverige, omvänd skattskyldighet, 6 % moms
+  id: 4417
+  type: expense
+- description: 'Inköpta tjänster i Sverige, omvänd
+
+    skattskyldighet, 25 % moms'
+  id: 4425
+  type: expense
+- description: Inköpta tjänster i Sverige, omvänd skattskyldighet, 12 %
+  id: 4426
+  type: expense
+- description: Inköpta tjänster i Sverige, omvänd skattskyldighet, 6 %
+  id: 4427
+  type: expense
+- description: Övriga momspliktiga inköp
+  id: 4500
+  type: expense
+- description: Inköp av varor från annat EU-land, 25 %
+  id: 4515
+  type: expense
+- description: Inköp av varor från annat EU-land, 12 %
+  id: 4516
+  type: expense
+- description: Inköp av varor från annat EU-land, 6 %
+  id: 4517
+  type: expense
+- description: Inköp av varor från annat EU-land, momsfri
+  id: 4518
+  type: expense
+- description: Inköp av tjänster från ett land utanför EU, 25 % moms
+  id: 4531
+  type: expense
+- description: Inköp av tjänster från ett land utanför EU, 12 % moms
+  id: 4532
+  type: expense
+- description: Inköp av tjänster från ett land utanför EU, 6 % moms
+  id: 4533
+  type: expense
+- description: Inköp av tjänster från annat EU-land, 25 %
+  id: 4535
+  type: expense
+- description: Inköp av tjänster från annat EU-land, 12 %
+  id: 4536
+  type: expense
+- description: Inköp av tjänster från annat EU-land, 6 %
+  id: 4537
+  type: expense
+- description: Inköp av tjänster från annat EU-land, momsfri
+  id: 4538
+  type: expense
+- description: Import av varor, 25 % moms
+  id: 4545
+  type: expense
+- description: Import av varor, 12 % moms
+  id: 4546
+  type: expense
+- description: Import av varor, 6 % moms
+  id: 4547
+  type: expense
+- description: Legoarbeten och underentreprenader (gruppkonto)
+  id: 4600
+  type: expense
+- description: Reduktion av inköpspriser (gruppkonto)
+  id: 4700
+  type: expense
+- description: Erhållna rabatter
+  id: 4730
+  type: expense
+- description: Erhållna kassarabatter
+  id: 4731
+  type: expense
+- description: Erhållna mängdrabatter (inkl. bonus)
+  id: 4732
+  type: expense
+- description: Erhållet aktivitetsstöd
+  id: 4733
+  type: expense
+- description: Övriga reduktioner av inköpspriser
+  id: 4790
+  type: expense
+- description: Förändring av lager (gruppkonto)
+  id: 4900
+  type: expense
+- description: Förändring av lager av råvaror
+  id: 4910
+  type: expense
+- description: Förändring av lager av tillsatsmaterial och förnödenheter
+  id: 4920
+  type: expense
+- description: Förändring av lager av halvfabrikat
+  id: 4930
+  type: expense
+- description: Förändring av lager av köpta halvfabrikat
+  id: 4931
+  type: expense
+- description: Förändring av lager av egentillverkade halvfabrikat
+  id: 4932
+  type: expense
+- description: Förändring av produkter i arbete
+  id: 4940
+  type: expense
+- description: Förändring av produkter i arbete, material och utlägg
+  id: 4944
+  type: expense
+- description: Förändring av produkter i arbete, omkostnader
+  id: 4945
+  type: expense
+- description: Förändring av produkter i arbete, personalkostnader
+  id: 4947
+  type: expense
+- description: Förändring av lager av färdiga varor
+  id: 4950
+  type: expense
+- description: Förändring av lager av handelsvaror
+  id: 4960
+  type: expense
+- description: Förändring av pågående arbeten, nedlagda kostnader
+  id: 4970
+  type: expense
+- description: Förändring av pågående arbeten, material och utlägg
+  id: 4974
+  type: expense
+- description: Förändring av pågående arbeten, omkostnader
+  id: 4975
+  type: expense
+- description: Förändring av pågående arbeten, personalkostnader
+  id: 4977
+  type: expense
+- description: Förändring av lager av värdepapper
+  id: 4980
+  type: expense
+- description: Sålda värdepappers anskaffningsvärde
+  id: 4981
+  type: expense
+- description: Nedskrivning av värdepapper
+  id: 4987
+  type: expense
+- description: Återföring av nedskrivning av värdepapper
+  id: 4988
+  type: expense
+- description: Förändring av lager och pågående arbeten (ofördelad)
+  id: 4990
+  type: expense
+- description: Lokalkostnader (gruppkonto)
+  id: 5000
+  type: expense
+- description: Lokalhyra
+  id: 5010
+  type: expense
+- description: Hyra för kontorslokaler
+  id: 5011
+  type: expense
+- description: Hyra för garage
+  id: 5012
+  type: expense
+- description: Hyra för lagerlokaler
+  id: 5013
+  type: expense
+- description: El för belysning
+  id: 5020
+  type: expense
+- description: Värme
+  id: 5030
+  type: expense
+- description: Vatten och avlopp
+  id: 5040
+  type: expense
+- description: Lokaltillbehör
+  id: 5050
+  type: expense
+- description: Städning och renhållning
+  id: 5060
+  type: expense
+- description: Städning
+  id: 5061
+  type: expense
+- description: Sophämtning
+  id: 5062
+  type: expense
+- description: Hyra för sopcontainer
+  id: 5063
+  type: expense
+- description: Snöröjning
+  id: 5064
+  type: expense
+- description: Trädgårdsskötsel
+  id: 5065
+  type: expense
+- description: Reparation och underhåll av lokaler
+  id: 5070
+  type: expense
+- description: Övriga lokalkostnader
+  id: 5090
+  type: expense
+- description: Övriga lokalkostnader, avdragsgilla
+  id: 5098
+  type: expense
+- description: Övriga lokalkostnader, ej avdragsgilla
+  id: 5099
+  type: expense
+- description: Fastighetskostnader (gruppkonto)
+  id: 5100
+  type: expense
+- description: Tomträttsavgäld/arrende
+  id: 5110
+  type: expense
+- description: El för belysning
+  id: 5120
+  type: expense
+- description: Värme
+  id: 5130
+  type: expense
+- description: Uppvärmning
+  id: 5131
+  type: expense
+- description: Sotning
+  id: 5132
+  type: expense
+- description: Vatten och avlopp
+  id: 5140
+  type: expense
+- description: Städning och renhållning
+  id: 5160
+  type: expense
+- description: Städning
+  id: 5161
+  type: expense
+- description: Sophämtning
+  id: 5162
+  type: expense
+- description: Hyra för sopcontainer
+  id: 5163
+  type: expense
+- description: Snöröjning
+  id: 5164
+  type: expense
+- description: Trädgårdsskötsel
+  id: 5165
+  type: expense
+- description: Reparation och underhåll av fastighet
+  id: 5170
+  type: expense
+- description: Övriga fastighetskostnader
+  id: 5190
+  type: expense
+- description: Fastighetsskatt/fastighetsavgift
+  id: 5191
+  type: expense
+- description: Fastighetsförsäkringspremier
+  id: 5192
+  type: expense
+- description: Fastighetsskötsel och förvaltning
+  id: 5193
+  type: expense
+- description: Övriga fastighetskostnader, avdragsgilla
+  id: 5198
+  type: expense
+- description: Övriga fastighetskostnader, ej avdragsgilla
+  id: 5199
+  type: expense
+- description: Hyra av anläggningstillgångar (gruppkonto)
+  id: 5200
+  type: expense
+- description: Hyra av maskiner och andra tekniska anläggningar
+  id: 5210
+  type: expense
+- description: Korttidshyra av maskiner och andra tekniska anläggningar
+  id: 5211
+  type: expense
+- description: Leasing av maskiner och andra tekniska anläggningar
+  id: 5212
+  type: expense
+- description: Hyra av inventarier och verktyg
+  id: 5220
+  type: expense
+- description: Korttidshyra av inventarier och verktyg
+  id: 5221
+  type: expense
+- description: Leasing av inventarier och verktyg
+  id: 5222
+  type: expense
+- description: Hyra av datorer
+  id: 5250
+  type: expense
+- description: Korttidshyra av datorer
+  id: 5251
+  type: expense
+- description: Leasing av datorer
+  id: 5252
+  type: expense
+- description: Övriga hyreskostnader för anläggningstillgångar
+  id: 5290
+  type: expense
+- description: Energikostnader (gruppkonto)
+  id: 5300
+  type: expense
+- description: El för drift
+  id: 5310
+  type: expense
+- description: Gas
+  id: 5320
+  type: expense
+- description: Eldningsolja
+  id: 5330
+  type: expense
+- description: Stenkol och koks
+  id: 5340
+  type: expense
+- description: Torv, träkol, ved och annat träbränsle
+  id: 5350
+  type: expense
+- description: Bensin, fotogen och motorbrännolja
+  id: 5360
+  type: expense
+- description: Fjärrvärme, kyla och ånga
+  id: 5370
+  type: expense
+- description: Vatten
+  id: 5380
+  type: expense
+- description: Övriga energikostnader
+  id: 5390
+  type: expense
+- description: Förbrukningsinventarier och förbrukningsmaterial (gruppkonto)
+  id: 5400
+  type: expense
+- description: Förbrukningsinventarier
+  id: 5410
+  type: expense
+- description: Förbrukningsinventarier med en livslängd på mer än ett år
+  id: 5411
+  type: expense
+- description: Förbrukningsinventarier med en livslängd på ett år eller mindre
+  id: 5412
+  type: expense
+- description: Programvaror
+  id: 5420
+  type: expense
+- description: Transportinventarier
+  id: 5430
+  type: expense
+- description: Förbrukningsemballage
+  id: 5440
+  type: expense
+- description: Förbrukningsmaterial
+  id: 5460
+  type: expense
+- description: Arbetskläder och skyddsmaterial
+  id: 5480
+  type: expense
+- description: Övriga förbrukningsinventarier och förbrukningsmaterial
+  id: 5490
+  type: expense
+- description: Övriga förbrukningsinventarier med en livslängd på mer än ett år
+  id: 5491
+  type: expense
+- description: Övriga förbrukningsinventarier med en livslängd på ett år eller mindre
+  id: 5492
+  type: expense
+- description: Övrigt förbrukningsmaterial
+  id: 5493
+  type: expense
+- description: Reparation och underhåll (gruppkonto)
+  id: 5500
+  type: expense
+- description: Reparation och underhåll av maskiner och andra tekniska anläggningar
+  id: 5510
+  type: expense
+- description: Reparation och underhåll av inventarier, verktyg och datorer m.m.
+  id: 5520
+  type: expense
+- description: Reparation och underhåll av installationer
+  id: 5530
+  type: expense
+- description: Reparation och underhåll av förbrukningsinventarier
+  id: 5550
+  type: expense
+- description: Underhåll och tvätt av arbetskläder
+  id: 5580
+  type: expense
+- description: Övriga kostnader för reparation och underhåll
+  id: 5590
+  type: expense
+- description: Kostnader för transportmedel (gruppkonto)
+  id: 5600
+  type: expense
+- description: Personbilskostnader
+  id: 5610
+  type: expense
+- description: Drivmedel för personbilar
+  id: 5611
+  type: expense
+- description: Försäkring och skatt för personbilar
+  id: 5612
+  type: expense
+- description: Reparation och underhåll av personbilar
+  id: 5613
+  type: expense
+- description: Leasing av personbilar
+  id: 5615
+  type: expense
+- description: Trängselskatt, avdragsgill
+  id: 5616
+  type: expense
+- description: Övriga personbilskostnader
+  id: 5619
+  type: expense
+- description: Lastbilskostnader
+  id: 5620
+  type: expense
+- description: Truckkostnader
+  id: 5630
+  type: expense
+- description: Kostnader för arbetsmaskiner
+  id: 5640
+  type: expense
+- description: Traktorkostnader
+  id: 5650
+  type: expense
+- description: Motorcykel-, moped- och skoterkostnader
+  id: 5660
+  type: expense
+- description: Båt-, flygplans- och helikopterkostnader
+  id: 5670
+  type: expense
+- description: Övriga kostnader för transportmedel
+  id: 5690
+  type: expense
+- description: Frakter och transporter (gruppkonto)
+  id: 5700
+  type: expense
+- description: Frakter, transporter och försäkringar vid varudistribution
+  id: 5710
+  type: expense
+- description: Tull- och speditionskostnader m.m.
+  id: 5720
+  type: expense
+- description: Arbetstransporter
+  id: 5730
+  type: expense
+- description: Övriga kostnader för frakter och transporter
+  id: 5790
+  type: expense
+- description: Resekostnader (gruppkonto)
+  id: 5800
+  type: expense
+- description: Biljetter
+  id: 5810
+  type: expense
+- description: Hyrbilskostnader
+  id: 5820
+  type: expense
+- description: Kost och logi
+  id: 5830
+  type: expense
+- description: Kost och logi i Sverige
+  id: 5831
+  type: expense
+- description: Kost och logi i utlandet
+  id: 5832
+  type: expense
+- description: Övriga resekostnader
+  id: 5890
+  type: expense
+- description: Reklam och PR (gruppkonto)
+  id: 5900
+  type: expense
+- description: Annonsering
+  id: 5910
+  type: expense
+- description: Utomhus- och trafikreklam
+  id: 5920
+  type: expense
+- description: Reklamtrycksaker och direktreklam
+  id: 5930
+  type: expense
+- description: Utställningar och mässor
+  id: 5940
+  type: expense
+- description: Butiksreklam och återförsäljarreklam
+  id: 5950
+  type: expense
+- description: Varuprover, reklamgåvor, presentreklam och tävlingar
+  id: 5960
+  type: expense
+- description: Film-, radio-, TV- och Internetreklam
+  id: 5970
+  type: expense
+- description: PR, institutionell reklam och sponsring
+  id: 5980
+  type: expense
+- description: Övriga kostnader för reklam och PR
+  id: 5990
+  type: expense
+- description: Övriga försäljningskostnader (gruppkonto)
+  id: 6000
+  type: expense
+- description: Kataloger, prislistor m.m.
+  id: 6010
+  type: expense
+- description: Egna facktidskrifter
+  id: 6020
+  type: expense
+- description: Speciella orderkostnader
+  id: 6030
+  type: expense
+- description: Kontokortsavgifter
+  id: 6040
+  type: expense
+- description: Försäljningsprovisioner
+  id: 6050
+  type: expense
+- description: Franchisekostnader o.dyl.
+  id: 6055
+  type: expense
+- description: Kreditförsäljningskostnader
+  id: 6060
+  type: expense
+- description: Kreditupplysning
+  id: 6061
+  type: expense
+- description: Inkasso och KFM-avgifter
+  id: 6062
+  type: expense
+- description: Kreditförsäkringspremier
+  id: 6063
+  type: expense
+- description: Factoringavgifter
+  id: 6064
+  type: expense
+- description: Övriga kreditförsäljningskostnader
+  id: 6069
+  type: expense
+- description: Representation
+  id: 6070
+  type: expense
+- description: Representation, avdragsgill
+  id: 6071
+  type: expense
+- description: Representation, ej avdragsgill
+  id: 6072
+  type: expense
+- description: Bankgarantier
+  id: 6080
+  type: expense
+- description: Övriga försäljningskostnader
+  id: 6090
+  type: expense
+- description: Kontorsmateriel och trycksaker (gruppkonto)
+  id: 6100
+  type: expense
+- description: Kontorsmateriel
+  id: 6110
+  type: expense
+- description: Trycksaker
+  id: 6150
+  type: expense
+- description: Tele och post (gruppkonto)
+  id: 6200
+  type: expense
+- description: Telekommunikation
+  id: 6210
+  type: expense
+- description: Fast telefoni
+  id: 6211
+  type: expense
+- description: Mobiltelefon
+  id: 6212
+  type: expense
+- description: Mobilsökning
+  id: 6213
+  type: expense
+- description: Fax
+  id: 6214
+  type: expense
+- description: Telex
+  id: 6215
+  type: expense
+- description: Datakommunikation
+  id: 6230
+  type: expense
+- description: Postbefordran
+  id: 6250
+  type: expense
+- description: Företagsförsäkringar och övriga riskkostnader (gruppkonto)
+  id: 6300
+  type: expense
+- description: Företagsförsäkringar
+  id: 6310
+  type: expense
+- description: Självrisker vid skada
+  id: 6320
+  type: expense
+- description: Förluster i pågående arbeten
+  id: 6330
+  type: expense
+- description: Lämnade skadestånd
+  id: 6340
+  type: expense
+- description: Lämnade skadestånd, avdragsgilla
+  id: 6341
+  type: expense
+- description: Lämnade skadestånd, ej avdragsgilla
+  id: 6342
+  type: expense
+- description: Förluster på kundfordringar
+  id: 6350
+  type: expense
+- description: Konstaterade förluster på kundfordringar
+  id: 6351
+  type: expense
+- description: Befarade förluster på kundfordringar
+  id: 6352
+  type: expense
+- description: Garantikostnader
+  id: 6360
+  type: expense
+- description: Förändring av garantiavsättning
+  id: 6361
+  type: expense
+- description: Faktiska garantikostnader
+  id: 6362
+  type: expense
+- description: Kostnader för bevakning och larm
+  id: 6370
+  type: expense
+- description: Förluster på övriga kortfristiga fordringar
+  id: 6380
+  type: expense
+- description: Övriga riskkostnader
+  id: 6390
+  type: expense
+- description: Förvaltningskostnader (gruppkonto)
+  id: 6400
+  type: expense
+- description: Styrelsearvoden som inte är lön
+  id: 6410
+  type: expense
+- description: Ersättningar till revisor
+  id: 6420
+  type: expense
+- description: Revision
+  id: 6421
+  type: expense
+- description: Revisonsverksamhet utöver revision
+  id: 6422
+  type: expense
+- description: Skatterådgivning – revisor
+  id: 6423
+  type: expense
+- description: Övriga tjänster – revisor
+  id: 6424
+  type: expense
+- description: Management fees
+  id: 6430
+  type: expense
+- description: Årsredovisning och delårsrapporter
+  id: 6440
+  type: expense
+- description: Bolagsstämma/års- eller föreningsstämma
+  id: 6450
+  type: expense
+- description: Övriga förvaltningskostnader
+  id: 6490
+  type: expense
+- description: Övriga externa tjänster (gruppkonto)
+  id: 6500
+  type: expense
+- description: Mätningskostnader
+  id: 6510
+  type: expense
+- description: Ritnings- och kopieringskostnader
+  id: 6520
+  type: expense
+- description: Redovisningstjänster
+  id: 6530
+  type: expense
+- description: IT-tjänster
+  id: 6540
+  type: expense
+- description: Konsultarvoden
+  id: 6550
+  type: expense
+- description: Serviceavgifter till branschorganisationer
+  id: 6560
+  type: expense
+- description: Bankkostnader
+  id: 6570
+  type: expense
+- description: Advokat- och rättegångskostnader
+  id: 6580
+  type: expense
+- description: Övriga externa tjänster
+  id: 6590
+  type: expense
+- description: Inhyrd personal (gruppkonto)
+  id: 6800
+  type: expense
+- description: Inhyrd produktionspersonal
+  id: 6810
+  type: expense
+- description: Inhyrd lagerpersonal
+  id: 6820
+  type: expense
+- description: Inhyrd transportpersonal
+  id: 6830
+  type: expense
+- description: Inhyrd kontors- och ekonomipersonal
+  id: 6840
+  type: expense
+- description: Inhyrd IT-personal
+  id: 6850
+  type: expense
+- description: Inhyrd marknads- och försäljningspersonal
+  id: 6860
+  type: expense
+- description: Inhyrd restaurang- och butikspersonal
+  id: 6870
+  type: expense
+- description: Inhyrda företagsledare
+  id: 6880
+  type: expense
+- description: Övrig inhyrd personal
+  id: 6890
+  type: expense
+- description: Övriga externa kostnader (gruppkonto)
+  id: 6900
+  type: expense
+- description: Licensavgifter och royalties
+  id: 6910
+  type: expense
+- description: Kostnader för egna patent
+  id: 6920
+  type: expense
+- description: Kostnader för varumärken m.m.
+  id: 6930
+  type: expense
+- description: Kontroll-, provnings- och stämpelavgifter
+  id: 6940
+  type: expense
+- description: Tillsynsavgifter myndigheter
+  id: 6950
+  type: expense
+- description: Tidningar, tidskrifter och facklitteratur
+  id: 6970
+  type: expense
+- description: Föreningsavgifter
+  id: 6980
+  type: expense
+- description: Föreningsavgifter, avdragsgilla
+  id: 6981
+  type: expense
+- description: Föreningsavgifter, ej avdragsgilla
+  id: 6982
+  type: expense
+- description: Övriga externa kostnader
+  id: 6990
+  type: expense
+- description: Övriga externa kostnader, avdragsgilla
+  id: 6991
+  type: expense
+- description: Övriga externa kostnader, ej avdragsgilla
+  id: 6992
+  type: expense
+- description: Lämnade bidrag och gåvor
+  id: 6993
+  type: expense
+- description: Betald utländsk inkomstskatt
+  id: 6996
+  type: expense
+- description: Obetald utländsk inkomstskatt
+  id: 6997
+  type: expense
+- description: Utländsk moms
+  id: 6998
+  type: expense
+- description: Ingående moms, blandad verksamhet
+  id: 6999
+  type: expense
+- description: Löner till kollektivanställda (gruppkonto)
+  id: 7000
+  type: expense
+- description: Löner till kollektivanställda
+  id: 7010
+  type: expense
+- description: Löner till kollektivanställda
+  id: 7011
+  type: expense
+- description: Vinstandelar till kollektivanställda
+  id: 7012
+  type: expense
+- description: Löner till kollektivanställda 25,46 %
+  id: 7013
+  type: expense
+- description: Löner till kollektivanställda 16,36 %
+  id: 7014
+  type: expense
+- description: Löner till kollektivanställda 6,15 %
+  id: 7015
+  type: expense
+- description: Vinstandelar till kollektivanställda 6,15 %
+  id: 7016
+  type: expense
+- description: Avgångsvederlag till kollektivanställda
+  id: 7017
+  type: expense
+- description: Bruttolöneavdrag, kollektivanställda
+  id: 7018
+  type: expense
+- description: Upplupna löner och vinstandelar till kollektivanställda
+  id: 7019
+  type: expense
+- description: Löner till kollektivanställda (utlandsanställda)
+  id: 7030
+  type: expense
+- description: Löner till kollektivanställda (utlandsanställda)
+  id: 7031
+  type: expense
+- description: Vinstandelar till kollektivanställda (utlandsanställda)
+  id: 7032
+  type: expense
+- description: Löner till kollektivanställda under 26 år (utlandsanställda)
+  id: 7033
+  type: expense
+- description: Löner till kollektivanställda (nya pensionssystemet) (utlandsanställda)
+  id: 7034
+  type: expense
+- description: Löner till kollektivanställda (avgiftsbefriade) (utlandsanställda)
+  id: 7035
+  type: expense
+- description: Vinstandelar till kollektivanställda (avgiftsbefriade) (utlandsanställda)
+  id: 7036
+  type: expense
+- description: Avgångsvederlag till kollektivanställda (utlandsanställda)
+  id: 7037
+  type: expense
+- description: Bruttolöneavdrag, kollektivanställda (utlandsanställda)
+  id: 7038
+  type: expense
+- description: Upplupna löner och vinstandelar till kollektivanställda (utlandsanställda)
+  id: 7039
+  type: expense
+- description: Löner till kollektivanställda för ej arbetad tid
+  id: 7080
+  type: expense
+- description: Sjuklöner till kollektivanställda
+  id: 7081
+  type: expense
+- description: Semesterlöner till kollektivanställda
+  id: 7082
+  type: expense
+- description: Föräldraersättning till kollektivanställda
+  id: 7083
+  type: expense
+- description: Övriga löner till kollektivanställda för ej arbetad tid
+  id: 7089
+  type: expense
+- description: Förändring av semesterlöneskuld
+  id: 7090
+  type: expense
+- description: Löner till tjänstemän och företagsledare (gruppkonto)
+  id: 7200
+  type: expense
+- description: Löner till tjänstemän
+  id: 7210
+  type: expense
+- description: Löner till tjänstemän
+  id: 7211
+  type: expense
+- description: Vinstandelar till tjänstemän
+  id: 7212
+  type: expense
+- description: Löner till tjänstemän 25,46 %
+  id: 7213
+  type: expense
+- description: Löner till tjänstemän 16,36 %
+  id: 7214
+  type: expense
+- description: Löner till tjänstemän 6,15 %
+  id: 7215
+  type: expense
+- description: Vinstandelar till tjänstemän 6,15 %
+  id: 7216
+  type: expense
+- description: Avgångsvederlag till tjänstemän
+  id: 7217
+  type: expense
+- description: Bruttolöneavdrag, tjänstemän
+  id: 7218
+  type: expense
+- description: Upplupna löner och vinstandelar till tjänstemän
+  id: 7219
+  type: expense
+- description: Löner till företagsledare
+  id: 7220
+  type: expense
+- description: Löner till företagsledare
+  id: 7221
+  type: expense
+- description: Tantiem till företagsledare
+  id: 7222
+  type: expense
+- description: Löner till företagsledare 25,46 %
+  id: 7223
+  type: expense
+- description: Löner till företagsledare 16,36 %
+  id: 7224
+  type: expense
+- description: Löner till företagsledare 6,15 %
+  id: 7225
+  type: expense
+- description: Avgångsvederlag till företagsledare
+  id: 7227
+  type: expense
+- description: Bruttolöneavdrag, företagsledare
+  id: 7228
+  type: expense
+- description: Upplupna löner och tantiem till företagsledare
+  id: 7229
+  type: expense
+- description: Löner till tjänstemän och ftgsledare (utlandsanställda)
+  id: 7230
+  type: expense
+- description: Löner till tjänstemän och ftgsledare (utlandsanställda)
+  id: 7231
+  type: expense
+- description: Vinstandelar till tjänstemän och ftgsledare (utlandsanställda)
+  id: 7232
+  type: expense
+- description: Löner till tjänstemän och ftgsledare under 26 år (utlandsanställda)
+  id: 7233
+  type: expense
+- description: Löner till tjänstemän och ftgsledare (utlandsanställda) (nya pensionssystemet)
+  id: 7234
+  type: expense
+- description: Löner till tjänstemän och ftgsledare (utlandsanställda) (avgiftsbefriade)
+  id: 7235
+  type: expense
+- description: Vinstandelar till tjänstemän och ftgsledare (utlandsanställda) (avgiftsbefriade)
+  id: 7236
+  type: expense
+- description: Avgångsvederlag till tjänstemän och ftgsledare (utlandsanställda)
+  id: 7237
+  type: expense
+- description: Bruttolöneavdrag, tjänstemän och ftgsledare (utlandsanställda)
+  id: 7238
+  type: expense
+- description: Upplupna löner och vinstandelar till tjänstemän och ftgsledare (utlandsanställda)
+  id: 7239
+  type: expense
+- description: Styrelsearvoden
+  id: 7240
+  type: expense
+- description: Löner till tjänstemän och företagsledare för ej arbetad tid
+  id: 7280
+  type: expense
+- description: Sjuklöner till tjänstemän
+  id: 7281
+  type: expense
+- description: Sjuklöner till företagsledare
+  id: 7282
+  type: expense
+- description: Föräldraersättning till tjänstemän
+  id: 7283
+  type: expense
+- description: Föräldraersättning till företagsledare
+  id: 7284
+  type: expense
+- description: Semesterlöner till tjänstemän
+  id: 7285
+  type: expense
+- description: Semesterlöner till företagsledare
+  id: 7286
+  type: expense
+- description: Övriga löner till tjänstemän för ej arbetad tid
+  id: 7288
+  type: expense
+- description: Övriga löner till företagsledare för ej arbetad tid
+  id: 7289
+  type: expense
+- description: Förändring av semesterlöneskuld
+  id: 7290
+  type: expense
+- description: Förändring av semesterlöneskuld till tjänstemän
+  id: 7291
+  type: expense
+- description: Förändring av semesterlöneskuld till företagsledare
+  id: 7292
+  type: expense
+- description: Kostnadsersättningar och förmåner (gruppkonto)
+  id: 7300
+  type: expense
+- description: Kontanta extraersättningar
+  id: 7310
+  type: expense
+- description: Ersättningar för sammanträden m.m.
+  id: 7311
+  type: expense
+- description: Ersättningar för förslagsverksamhet och uppfinningar
+  id: 7312
+  type: expense
+- description: Ersättningar för/bidrag till bostadskostnader
+  id: 7313
+  type: expense
+- description: Ersättningar för/bidrag till måltidskostnader
+  id: 7314
+  type: expense
+- description: Ersättningar för/bidrag till resor till och från arbetsplatsen
+  id: 7315
+  type: expense
+- description: Ersättningar för/bidrag till arbetskläder
+  id: 7316
+  type: expense
+- description: Ersättningar för/bidrag till arbetsmaterial och arbetsverktyg
+  id: 7317
+  type: expense
+- description: Felräkningspengar
+  id: 7318
+  type: expense
+- description: Övriga kontanta extraersättningar
+  id: 7319
+  type: expense
+- description: Traktamenten vid tjänsteresa
+  id: 7320
+  type: expense
+- description: Skattefria traktamenten, Sverige
+  id: 7321
+  type: expense
+- description: Skattepliktiga traktamenten, Sverige
+  id: 7322
+  type: expense
+- description: Skattefria traktamenten, utlandet
+  id: 7323
+  type: expense
+- description: Skattepliktiga traktamenten, utlandet
+  id: 7324
+  type: expense
+- description: Bilersättningar
+  id: 7330
+  type: expense
+- description: Skattefria bilersättningar
+  id: 7331
+  type: expense
+- description: Skattepliktiga bilersättningar
+  id: 7332
+  type: expense
+- description: Ersättning för trängselskatt, skattefri
+  id: 7333
+  type: expense
+- description: Ersättningar för föreskrivna arbetskläder
+  id: 7350
+  type: expense
+- description: Representationsersättningar
+  id: 7370
+  type: expense
+- description: Kostnader för förmåner till anställda
+  id: 7380
+  type: expense
+- description: Kostnader för fri bostad
+  id: 7381
+  type: expense
+- description: Kostnader för fria eller subventionerade måltider
+  id: 7382
+  type: expense
+- description: Kostnader för fria resor till och från arbetsplatsen
+  id: 7383
+  type: expense
+- description: Kostnader för fria eller subventionerade arbetskläder
+  id: 7384
+  type: expense
+- description: Kostnader för fri bil
+  id: 7385
+  type: expense
+- description: Subventionerad ränta
+  id: 7386
+  type: expense
+- description: Kostnader för lånedatorer
+  id: 7387
+  type: expense
+- description: Anställdas ersättning för erhållna förmåner
+  id: 7388
+  type: expense
+- description: Övriga kostnader för förmåner
+  id: 7389
+  type: expense
+- description: Övriga kostnadsersättningar och förmåner
+  id: 7390
+  type: expense
+- description: Kostnad för trängselskatteförmån
+  id: 7391
+  type: expense
+- description: Kostnad för förmån av hushållsnära tjänster
+  id: 7392
+  type: expense
+- description: Pensionskostnader (gruppkonto)
+  id: 7400
+  type: expense
+- description: Pensionsförsäkringspremier
+  id: 7410
+  type: expense
+- description: Premier för kollektiva pensionsförsäkringar
+  id: 7411
+  type: expense
+- description: Premier för individuella pensionsförsäkringar
+  id: 7412
+  type: expense
+- description: Återbäring från försäkringsföretag
+  id: 7418
+  type: expense
+- description: Förändring av pensionsskuld
+  id: 7420
+  type: expense
+- description: Avdrag för räntedel i pensionskostnad
+  id: 7430
+  type: expense
+- description: Förändring av pensionsstiftelsekapital
+  id: 7440
+  type: expense
+- description: Avsättning till pensionsstiftelse
+  id: 7441
+  type: expense
+- description: Gottgörelse från pensionsstiftelse
+  id: 7448
+  type: expense
+- description: Pensionsutbetalningar
+  id: 7460
+  type: expense
+- description: Pensionsutbetalningar till f.d. kollektivanställda
+  id: 7461
+  type: expense
+- description: Pensionsutbetalningar till f.d. tjänstemän
+  id: 7462
+  type: expense
+- description: Pensionsutbetalningar till f.d. företagsledare
+  id: 7463
+  type: expense
+- description: Förvaltnings- och kreditförsäkringsavgifter
+  id: 7470
+  type: expense
+- description: Övriga pensionskostnader
+  id: 7490
+  type: expense
+- description: Sociala och andra avgifter enligt lag och avtal (gruppkonto)
+  id: 7500
+  type: expense
+- description: Arbetsgivaravgifter 31,42 %
+  id: 7510
+  type: expense
+- description: Arbetsgivaravgifter för löner och ersättningar
+  id: 7511
+  type: expense
+- description: Arbetsgivaravgifter för förmånsvärden
+  id: 7512
+  type: expense
+- description: Arbetsgivaravgifter på skattepliktiga kostnadsersättningar
+  id: 7515
+  type: expense
+- description: Arbetsgivaravgifter på arvoden
+  id: 7516
+  type: expense
+- description: Arbetsgivaravgifter på bruttolöneavdrag m.m.
+  id: 7518
+  type: expense
+- description: Arbetsgivaravgifter för semester- och löneskulder
+  id: 7519
+  type: expense
+- description: Avgifter 16,36 %
+  id: 7520
+  type: expense
+- description: Avgifter för löner och ersättningar
+  id: 7521
+  type: expense
+- description: Avgifter för förmånsvärden
+  id: 7522
+  type: expense
+- description: Avgifter på skattepliktiga kostnadsersättningar
+  id: 7525
+  type: expense
+- description: Avgifter på arvoden
+  id: 7526
+  type: expense
+- description: Avgifter på bruttolöneavdrag m.m.
+  id: 7528
+  type: expense
+- description: Avgifter för semester- och löneskulder
+  id: 7529
+  type: expense
+- description: Särskild löneskatt
+  id: 7530
+  type: expense
+- description: Särskild löneskatt för vissa försäkringsersättningar m.m.
+  id: 7531
+  type: expense
+- description: Särskild löneskatt pensionskostnader, deklarationspost
+  id: 7532
+  type: expense
+- description: Särskild löneskatt för pensionskostnader
+  id: 7533
+  type: expense
+- description: Särskild löneskatt förvärvsinkomster 6,15 %
+  id: 7534
+  type: expense
+- description: Avkastningsskatt på pensionsmedel
+  id: 7550
+  type: expense
+- description: Arbetsgivaravgifter 25,46 %
+  id: 7560
+  type: expense
+- description: Premier för arbetsmarknadsförsäkringar
+  id: 7570
+  type: expense
+- description: Arbetsmarknadsförsäkringar
+  id: 7571
+  type: expense
+- description: Arbetsmarknadsförsäkringar pensionsförsäkringspremier, deklarationspost
+  id: 7572
+  type: expense
+- description: Gruppförsäkringspremier
+  id: 7580
+  type: expense
+- description: Grupplivförsäkringspremier
+  id: 7581
+  type: expense
+- description: Gruppsjukförsäkringspremier
+  id: 7582
+  type: expense
+- description: Gruppolycksfallsförsäkringspremier
+  id: 7583
+  type: expense
+- description: Övriga gruppförsäkringspremier
+  id: 7589
+  type: expense
+- description: Övriga sociala och andra avgifter enligt lag och avtal
+  id: 7590
+  type: expense
+- description: Övriga personalkostnader (gruppkonto)
+  id: 7600
+  type: expense
+- description: Utbildning
+  id: 7610
+  type: expense
+- description: Sjuk- och hälsovård
+  id: 7620
+  type: expense
+- description: Sjuk- och hälsovård, avdragsgill
+  id: 7621
+  type: expense
+- description: Sjuk- och hälsovård, ej avdragsgill
+  id: 7622
+  type: expense
+- description: Sjukvårdsförsäkring, ej avdragsgill
+  id: 7623
+  type: expense
+- description: Personalrepresentation
+  id: 7630
+  type: expense
+- description: Personalrepresentation, avdragsgill
+  id: 7631
+  type: expense
+- description: Personalrepresentation, ej avdragsgill
+  id: 7632
+  type: expense
+- description: Sjuklöneförsäkring
+  id: 7650
+  type: expense
+- description: Förändring av personalstiftelsekapital
+  id: 7670
+  type: expense
+- description: Avsättning till personalstiftelse
+  id: 7671
+  type: expense
+- description: Gottgörelse från personalstiftelse
+  id: 7678
+  type: expense
+- description: Övriga personalkostnader
+  id: 7690
+  type: expense
+- description: Personalrekrytering
+  id: 7691
+  type: expense
+- description: Begravningshjälp
+  id: 7692
+  type: expense
+- description: Fritidsverksamhet
+  id: 7693
+  type: expense
+- description: Övriga personalkostnader
+  id: 7699
+  type: expense
+- description: Nedskrivningar av immateriella anläggningstillgångar
+  id: 7710
+  type: expense
+- description: Nedskrivningar av byggnader och mark
+  id: 7720
+  type: expense
+- description: Nedskrivningar av maskiner och inventarier
+  id: 7730
+  type: expense
+- description: Nedskrivningar av vissa omsättningstillgångar
+  id: 7740
+  type: expense
+- description: Återföring av nedskrivningar av immateriella anläggningstillgångar
+  id: 7760
+  type: expense
+- description: Återföring av nedskrivningar av byggnader och mark
+  id: 7770
+  type: expense
+- description: Återföring av nedskrivningar av maskiner och inventarier
+  id: 7780
+  type: expense
+- description: Återföring av nedskrivningar av vissa omsättningstillgångar
+  id: 7790
+  type: expense
+- description: Avskrivningar på immateriella anläggningstillgångar
+  id: 7810
+  type: expense
+- description: Avskrivningar på balanserade utgifter
+  id: 7811
+  type: expense
+- description: Avskrivningar på koncessioner m.m.
+  id: 7812
+  type: expense
+- description: Avskrivningar på patent
+  id: 7813
+  type: expense
+- description: Avskrivningar på licenser
+  id: 7814
+  type: expense
+- description: Avskrivningar på varumärken
+  id: 7815
+  type: expense
+- description: Avskrivningar på hyresrätter
+  id: 7816
+  type: expense
+- description: Avskrivningar på goodwill
+  id: 7817
+  type: expense
+- description: Avskrivningar på övriga immateriella anläggningstillgångar
+  id: 7819
+  type: expense
+- description: Avskrivningar på byggnader och markanläggningar
+  id: 7820
+  type: expense
+- description: Avskrivningar på byggnader
+  id: 7821
+  type: expense
+- description: Avskrivningar på markanläggningar
+  id: 7824
+  type: expense
+- description: Avskrivningar på övriga byggnader
+  id: 7829
+  type: expense
+- description: Avskrivningar på maskiner och inventarier
+  id: 7830
+  type: expense
+- description: Avskrivningar på maskiner och andra tekniska anläggningar
+  id: 7831
+  type: expense
+- description: Avskrivningar på inventarier och verktyg
+  id: 7832
+  type: expense
+- description: Avskrivningar på installationer
+  id: 7833
+  type: expense
+- description: Avskrivningar på bilar och andra transportmedel
+  id: 7834
+  type: expense
+- description: Avskrivningar på datorer
+  id: 7835
+  type: expense
+- description: Avskrivningar på leasade tillgångar
+  id: 7836
+  type: expense
+- description: Avskrivningar på övriga maskiner och inventarier
+  id: 7839
+  type: expense
+- description: Avskrivningar på förbättringsutgifter på annans fastighet
+  id: 7840
+  type: expense
+- description: Orealiserade positiva/negativa värdeförändringar på säkringsinstrument
+  id: 7940
+  type: expense
+- description: Valutakursförluster på fordringar och skulder av rörelsekaraktär
+  id: 7960
+  type: expense
+- description: Förlust vid avyttring av immateriella och materiella anläggningstillgångar
+  id: 7970
+  type: expense
+- description: Förlust vid avyttring av immateriella anläggningstillgångar
+  id: 7971
+  type: expense
+- description: Förlust vid avyttring av byggnader och mark
+  id: 7972
+  type: expense
+- description: Förlust vid avyttring av maskiner och inventarier
+  id: 7973
+  type: expense
+- description: Övriga rörelsekostnader
+  id: 7990
+  type: expense
+- description: Utdelning på andelar i koncernföretag
+  id: 8010
+  type: expense
+- description: Utdelning på andelar i dotterföretag
+  id: 8012
+  type: expense
+- description: Utdelning på andelar i andra koncernföretag
+  id: 8013
+  type: expense
+- description: Koncernbidrag
+  id: 8014
+  type: expense
+- description: Insatsemission, koncernföretag
+  id: 8016
+  type: expense
+- description: Övriga utdelningar på andelar i koncernföretag
+  id: 8019
+  type: expense
+- description: Resultat vid försäljning av andelar i koncernföretag
+  id: 8020
+  type: expense
+- description: Resultat vid försäljning av andelar i dotterföretag
+  id: 8022
+  type: expense
+- description: Resultat vid försäljning av andelar i andra koncernföretag
+  id: 8023
+  type: expense
+- description: Resultatandelar från handelsbolag (dotterföretag)
+  id: 8030
+  type: expense
+- description: Nedskrivningar av andelar i och långfristiga fordringar hos koncernföretag
+  id: 8070
+  type: expense
+- description: Nedskrivningar av andelar i dotterföretag
+  id: 8072
+  type: expense
+- description: Nedskrivningar av andelar i andra koncernföretag
+  id: 8073
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos moderföretag
+  id: 8076
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos dotterföretag
+  id: 8077
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos andra koncernföretag
+  id: 8078
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i och långfristiga fordringar
+    hos koncernföretag
+  id: 8080
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i dotterföretag
+  id: 8082
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i andra koncernföretag
+  id: 8083
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos moderföretag
+  id: 8086
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos dotterföretag
+  id: 8087
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos andra
+    koncernföretag
+  id: 8088
+  type: expense
+- description: Utdelningar på andelar i intresseföretag, gemensamt styrda företag
+    och övriga företag som det finns ett ägarintresse i
+  id: 8110
+  type: expense
+- description: Utdelningar på andelar i intresseföretag
+  id: 8111
+  type: expense
+- description: Utdelningar på andelar i gemensamt styrda företag
+  id: 8112
+  type: expense
+- description: Utdelningar på andelar i övriga företag som det finns ett ägarintresse
+    i
+  id: 8113
+  type: expense
+- description: Insatsemission, intresseföretag
+  id: 8116
+  type: expense
+- description: Insatsemission, gemensamt styrda företag
+  id: 8117
+  type: expense
+- description: Insatsemission, övriga företag som det finns ett ägarintresse i
+  id: 8118
+  type: expense
+- description: Resultat vid försäljning av andelar i intresseföretag, gemensamt styrda
+    företag och övriga företag som det finns ett ägarintresse i
+  id: 8120
+  type: expense
+- description: Resultat vid försäljning av andelar i intresseföretag
+  id: 8121
+  type: expense
+- description: Resultat vid försäljning av andelar i gemensamt styrda företag
+  id: 8122
+  type: expense
+- description: Resultat vid försäljning av andelar i övriga företag som det finns
+    ett ägarintresse i
+  id: 8123
+  type: expense
+- description: Resultatandelar från handelsbolag (intresseföretag, gemensamt styrda
+    företag och övriga företag som det finns ett ägarintresse i)
+  id: 8130
+  type: expense
+- description: Resultatandelar från handelsbolag (intresseföretag)
+  id: 8131
+  type: expense
+- description: Resultatandelar från handelsbolag (gemensamt styrda företag)
+  id: 8132
+  type: expense
+- description: Resultatandelar från handelsbolag (övriga företag som det finns ett
+    ägarintresse i)
+  id: 8133
+  type: expense
+- description: Nedskrivningar av andelar i och långfristiga fordringar hos intresseföretag,
+    gemensamt styrda företag och övriga företag som det finns ett ägarintresse i
+  id: 8170
+  type: expense
+- description: Nedskrivningar av andelar i intresseföretag
+  id: 8171
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos intresseföretag
+  id: 8172
+  type: expense
+- description: Nedskrivningar av andelar i gemensamt styrda företag
+  id: 8173
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos gemensamt styrda företag
+  id: 8174
+  type: expense
+- description: Nedskrivningar av andelar i övriga företag som det finns ett ägarintresse
+    i
+  id: 8176
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos övriga företag som det
+    finns ett ägarintresse i
+  id: 8177
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i och långfristiga fordringar
+    hos intresseföretag
+  id: 8180
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i intresseföretag
+  id: 8181
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos intresseföretag
+  id: 8182
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i gemensamt styrda företag
+  id: 8183
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos gemensamt
+    styrda företag
+  id: 8184
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i övriga företag som det
+    finns ett ägarintresse i
+  id: 8186
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos övriga
+    företag som det finns ett ägarintresse i
+  id: 8187
+  type: expense
+- description: Utdelningar på andelar i andra företag
+  id: 8210
+  type: expense
+- description: Utdelningar, övriga företag
+  id: 8212
+  type: expense
+- description: Insatsemissioner, övriga företag
+  id: 8216
+  type: expense
+- description: Resultat vid försäljning av värdepapper i och långfristiga fordringar
+    hos andra företag
+  id: 8220
+  type: expense
+- description: Resultat vid försäljning av andelar i andra företag
+  id: 8221
+  type: expense
+- description: Resultat vid försäljning av långfristiga fordringar hos andra företag
+  id: 8222
+  type: expense
+- description: Resultat vid försäljning av derivat (långfristiga värdepappersinnehav)
+  id: 8223
+  type: expense
+- description: Valutakursdifferenser på långfristiga fordringar
+  id: 8230
+  type: expense
+- description: Valutakursvinster på långfristiga fordringar
+  id: 8231
+  type: expense
+- description: Valutakursförluster på långfristiga fordringar
+  id: 8236
+  type: expense
+- description: Resultatandelar från handelsbolag (andra företag)
+  id: 8240
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar hos och värdepapper i andra
+    företag
+  id: 8250
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar
+  id: 8251
+  type: expense
+- description: Ränteintäkter från övriga värdepapper
+  id: 8252
+  type: expense
+- description: Skattefria ränteintäkter, långfristiga tillgångar
+  id: 8254
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar hos koncernföretag
+  id: 8260
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar hos moderföretag
+  id: 8261
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar hos dotterföretag
+  id: 8262
+  type: expense
+- description: Ränteintäkter från långfristiga fordringar hos andra koncernföretag
+  id: 8263
+  type: expense
+- description: Nedskrivningar av innehav av andelar i och långfristiga fordringar
+    hos andra företag
+  id: 8270
+  type: expense
+- description: Nedskrivningar av andelar i andra företag
+  id: 8271
+  type: expense
+- description: Nedskrivningar av långfristiga fordringar hos andra företag
+  id: 8272
+  type: expense
+- description: Nedskrivningar av övriga värdepapper hos andra företag
+  id: 8273
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i och långfristiga fordringar
+    hos andra företag
+  id: 8280
+  type: expense
+- description: Återföringar av nedskrivningar av andelar i andra företag
+  id: 8281
+  type: expense
+- description: Återföringar av nedskrivningar av långfristiga fordringar hos andra
+    företag
+  id: 8282
+  type: expense
+- description: Återföringar av nedskrivningar av övriga värdepapper i andra företag
+  id: 8283
+  type: expense
+- description: Värdering till verkligt värde, anläggningstillgångar
+  id: 8290
+  type: expense
+- description: Orealiserade värdeförändringar på anläggningstillgångar
+  id: 8291
+  type: expense
+- description: Orealiserade värdeförändringar på derivatinstrument
+  id: 8295
+  type: expense
+- description: Ränteintäkter från omsättningstillgångar
+  id: 8310
+  type: expense
+- description: Ränteintäkter från bank
+  id: 8311
+  type: expense
+- description: Ränteintäkter från kortfristiga placeringar
+  id: 8312
+  type: expense
+- description: Ränteintäkter från kortfristiga fordringar
+  id: 8313
+  type: expense
+- description: Skattefria ränteintäkter
+  id: 8314
+  type: expense
+- description: Ränteintäkter för dold räntekompensation
+  id: 8317
+  type: expense
+- description: Övriga ränteintäkter från omsättningstillgångar
+  id: 8319
+  type: expense
+- description: Värdering till verkligt värde, omsättningstillgångar
+  id: 8320
+  type: expense
+- description: Orealiserade värdeförändringar på omsättningstillgångar
+  id: 8321
+  type: expense
+- description: Orealiserade värdeförändringar på derivatinstrument (oms.-tillg.)
+  id: 8325
+  type: expense
+- description: Valutakursdifferenser på kortfristiga fordringar och placeringar
+  id: 8330
+  type: expense
+- description: Valutakursvinster på kortfristiga fordringar och placeringar
+  id: 8331
+  type: expense
+- description: Valutakursförluster på kortfristiga fordringar och placeringar
+  id: 8336
+  type: expense
+- description: Utdelningar på kortfristiga placeringar
+  id: 8340
+  type: expense
+- description: Resultat vid försäljning av kortfristiga placeringar
+  id: 8350
+  type: expense
+- description: Övriga ränteintäkter från koncernföretag
+  id: 8360
+  type: expense
+- description: Övriga ränteintäkter från moderföretag
+  id: 8361
+  type: expense
+- description: Övriga ränteintäkter från dotterföretag
+  id: 8362
+  type: expense
+- description: Övriga ränteintäkter från andra koncernföretag
+  id: 8363
+  type: expense
+- description: Nedskrivningar av kortfristiga placeringar
+  id: 8370
+  type: expense
+- description: Återföringar av nedskrivningar av kortfristiga placeringar
+  id: 8380
+  type: expense
+- description: Övriga finansiella intäkter
+  id: 8390
+  type: expense
+- description: Räntekostnader (gruppkonto)
+  id: 8400
+  type: expense
+- description: Räntekostnader för långfristiga skulder
+  id: 8410
+  type: expense
+- description: Räntekostnader för obligations-, förlags- och konvertibla lån
+  id: 8411
+  type: expense
+- description: Räntedel i årets pensionskostnad
+  id: 8412
+  type: expense
+- description: Räntekostnader för checkräkningskredit
+  id: 8413
+  type: expense
+- description: Räntekostnader för byggnadskreditiv
+  id: 8414
+  type: expense
+- description: Räntekostnader för andra skulder till kreditinstitut
+  id: 8415
+  type: expense
+- description: Räntekostnader för dold räntekompensation m.m.
+  id: 8417
+  type: expense
+- description: Avdragspost för räntesubventioner
+  id: 8418
+  type: expense
+- description: Övriga räntekostnader för långfristiga skulder
+  id: 8419
+  type: expense
+- description: Räntekostnader för kortfristiga skulder
+  id: 8420
+  type: expense
+- description: Räntekostnader till kreditinstitut
+  id: 8421
+  type: expense
+- description: Dröjsmålsräntor för leverantörsskulder
+  id: 8422
+  type: expense
+- description: Räntekostnader för skatter och avgifter
+  id: 8423
+  type: expense
+- description: Övriga räntekostnader för kortfristiga skulder
+  id: 8429
+  type: expense
+- description: Valutakursdifferenser på skulder
+  id: 8430
+  type: expense
+- description: Valutakursvinster på skulder
+  id: 8431
+  type: expense
+- description: Valutakursförluster på skulder
+  id: 8436
+  type: expense
+- description: Erhållna räntebidrag
+  id: 8440
+  type: expense
+- description: Orealiserade värdeförändringar på skulder
+  id: 8450
+  type: expense
+- description: Orealiserade värdeförändringar på skulder
+  id: 8451
+  type: expense
+- description: Orealiserade värdeförändringar på säkringsinstrument
+  id: 8455
+  type: expense
+- description: Räntekostnader till koncernföretag
+  id: 8460
+  type: expense
+- description: Räntekostnader till moderföretag
+  id: 8461
+  type: expense
+- description: Räntekostnader till dotterföretag
+  id: 8462
+  type: expense
+- description: Räntekostnader till andra koncernföretag
+  id: 8463
+  type: expense
+- description: Aktiverade ränteutgifter
+  id: 8480
+  type: expense
+- description: Övriga skuldrelaterade poster
+  id: 8490
+  type: expense
+- description: Erhållet ackord på skulder till kreditinstitut m.m.
+  id: 8491
+  type: expense
+- description: Förändring av periodiseringsfond
+  id: 8810
+  type: expense
+- description: Avsättning till periodiseringsfond
+  id: 8811
+  type: expense
+- description: Återföring från periodiseringsfond
+  id: 8819
+  type: expense
+- description: Mottagna koncernbidrag
+  id: 8820
+  type: expense
+- description: Lämnade koncernbidrag
+  id: 8830
+  type: expense
+- description: Lämnade gottgörelser
+  id: 8840
+  type: expense
+- description: Förändring av överavskrivningar
+  id: 8850
+  type: expense
+- description: Förändring av överavskrivningar, immateriella anläggningstillgångar
+  id: 8851
+  type: expense
+- description: Förändring av överavskrivningar, byggnader och markanläggningar
+  id: 8852
+  type: expense
+- description: Förändring av överavskrivningar, maskiner och inventarier
+  id: 8853
+  type: expense
+- description: Förändring av ersättningsfond
+  id: 8860
+  type: expense
+- description: Avsättning till ersättningsfond för inventarier
+  id: 8861
+  type: expense
+- description: Avsättning till ersättningsfond för byggnader och markanläggningar
+  id: 8862
+  type: expense
+- description: Avsättning till ersättningsfond för mark
+  id: 8863
+  type: expense
+- description: Avsättning till ersättningsfond för djurlager i jordbruk och renskötsel
+  id: 8864
+  type: expense
+- description: Ianspråktagande av ersättningsfond för avskrivningar
+  id: 8865
+  type: expense
+- description: Ianspråktagande av ersättningsfond för annat än avskrivningar
+  id: 8866
+  type: expense
+- description: Återföring från ersättningsfond
+  id: 8869
+  type: expense
+- description: Förändring av obeskattade intäkter
+  id: 8880
+  type: expense
+- description: Avsättning till upphovsmannakonto
+  id: 8881
+  type: expense
+- description: Återföring från upphovsmannakonto
+  id: 8882
+  type: expense
+- description: Avsättning till skogskonto
+  id: 8885
+  type: expense
+- description: Återföring från skogskonto
+  id: 8886
+  type: expense
+- description: Övriga bokslutsdispositioner
+  id: 8890
+  type: expense
+- description: Nedskrivningar av konsolideringskaraktär av anläggningstillgångar
+  id: 8892
+  type: expense
+- description: Förändring av lagerreserv
+  id: 8896
+  type: expense
+- description: Övriga bokslutsdispositioner
+  id: 8899
+  type: expense
+- description: Skatt som belastar årets resultat
+  id: 8910
+  type: expense
+- description: Skatt på grund av ändrad beskattning
+  id: 8920
+  type: expense
+- description: Restituerad skatt
+  id: 8930
+  type: expense
+- description: Uppskjuten skatt
+  id: 8940
+  type: expense
+- description: Övriga skatter
+  id: 8980
+  type: expense
+- description: Resultat
+  id: 8990
+  type: expense
+- description: Årets resultat
+  id: 8999
+  type: expense
