@@ -1,0 +1,88 @@
+# GIT RULES
+
+* Repo MUST NOT contain any branches beside master.
+* Commits MUST NOT contain deletions.
+* Server SHOULD reject force-pushes.
+
+# GLOSSARY
+
+* "Journal" contains transactions.
+* "Transactions" contain postings.
+* "Posting" is a single line debiting or crediting an account.
+* "Account" is a category for grouping together similar transactions.
+* "Chart of accounts" is the list of accounts used by an entity/organization.
+* "Fiscial year" is the period used for calculating annual financial statements in business.
+* "Profit unit" is a part of the entity. For example a division or an employee. Profit units follow the fiscal year. If an account is to be used with a profit unit, all postings with this account has to have a profit unit.
+* "Project" is a way to group together transactions. Projects can last several fiscal years.
+
+
+# FILE STRUCTURE
+
+```
+ledger/
+|-- README.md                    -- generated at repo creation
+|-- organization.yml             -- organization meta data
+|-- chartofaccounts/{coa}.yml    -- chart of accounts templates
+|-- {year}/year.yml              -- fiscial year metadata
+|-- {year}/chartofaccounts.yml   -- Chart of accounts for year
+`-- {year}/journal.yml           -- Transactions of year
+```
+
+# YAML structures
+
+```
+organization:
+    name: string
+    projects: project[]
+    profit_units: profitUnit[]
+
+project:
+    id: string
+    description: string
+
+profitUnit:
+    id: string
+    description: string
+
+account:
+    id: string
+    description: string
+    type: enum(asset, liability, revenue, expense)
+    project_required: boolean
+    profit_unit_required: boolean
+
+    # vat_code: string
+    # sru_code: string
+
+chartOfAccounts:
+    name: string
+    template: string
+    accounts: account
+
+posting:
+    account_id: string
+    project_number[optional]: project_id
+    result_unit_number[optional]: profit_unit_id
+
+    debit: float
+    credit: float
+
+    edited_date: date
+    edited_signature: string
+    crossed: bool
+    added: bool
+
+transaction:
+    number: integer
+    date: date
+    description: string
+    corrects: integer
+    correctedBy: integer
+    rows: posting[]
+
+fiscalYear:
+    from: date
+    to: date
+    chartofaccounts: chartOfAccounts
+    transaction: transaction[]
+```
