@@ -1,17 +1,14 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 """A script for converting BAS excel spreadsheets to yaml.
 """
 
-from __future__ import print_function
 import os
 import sys
 import argparse
 from xlrd import open_workbook, XL_CELL_NUMBER
 import yaml
 import unicodedata
-
 
 def main(arguments):
     parser = argparse.ArgumentParser(description=__doc__,
@@ -32,7 +29,7 @@ def parse_file(infile_path, outfile_path, col_indices):
     wb = open_workbook(filename=infile_path)
     sheet = wb.sheet_by_index(0)
     accounts = []
-    for row_index in xrange(0, sheet.nrows):
+    for row_index in range(0, sheet.nrows):
         for col_index in col_indices:
             if sheet.cell(row_index, col_index).ctype == XL_CELL_NUMBER:
                 iden = sheet.cell(row_index, col_index).value

@@ -1,4 +1,8 @@
-from __future__ import print_function
+#!/usr/bin/env python3
+
+"""Initial tests for git as data backend. Creates a data storage, which prints the location of the git repository. Then sleeps forever.
+"""
+
 from datastore import Datastore
 import time
 

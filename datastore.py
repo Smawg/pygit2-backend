@@ -1,10 +1,7 @@
-from __future__ import print_function
 import pygit2
 import tempfile
 import os,sys,shutil
-#import json
 import yaml
-
 
 """Use 'with Datastore() as ds' to open Datastore"""
 
